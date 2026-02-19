@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sszynk/projects/templates
+CMAKE_SOURCE_DIR = /home/sszynk/projects/TheFinalRaytracer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sszynk/projects/templates/build/Debug
+CMAKE_BINARY_DIR = /home/sszynk/projects/TheFinalRaytracer/build/Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sszynk/projects/templates/build/Debug/CMakeFiles /home/sszynk/projects/templates/build/Debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles /home/sszynk/projects/TheFinalRaytracer/build/Debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sszynk/projects/templates/build/Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -166,6 +166,126 @@ src/app/app.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.s
 .PHONY : src/app/app.cpp.s
 
+src/app/console_window.o: src/app/console_window.cpp.o
+.PHONY : src/app/console_window.o
+
+# target to build an object file
+src/app/console_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.o
+.PHONY : src/app/console_window.cpp.o
+
+src/app/console_window.i: src/app/console_window.cpp.i
+.PHONY : src/app/console_window.i
+
+# target to preprocess a source file
+src/app/console_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.i
+.PHONY : src/app/console_window.cpp.i
+
+src/app/console_window.s: src/app/console_window.cpp.s
+.PHONY : src/app/console_window.s
+
+# target to generate assembly for a file
+src/app/console_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.s
+.PHONY : src/app/console_window.cpp.s
+
+src/app/entity_editor_window.o: src/app/entity_editor_window.cpp.o
+.PHONY : src/app/entity_editor_window.o
+
+# target to build an object file
+src/app/entity_editor_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.o
+.PHONY : src/app/entity_editor_window.cpp.o
+
+src/app/entity_editor_window.i: src/app/entity_editor_window.cpp.i
+.PHONY : src/app/entity_editor_window.i
+
+# target to preprocess a source file
+src/app/entity_editor_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.i
+.PHONY : src/app/entity_editor_window.cpp.i
+
+src/app/entity_editor_window.s: src/app/entity_editor_window.cpp.s
+.PHONY : src/app/entity_editor_window.s
+
+# target to generate assembly for a file
+src/app/entity_editor_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.s
+.PHONY : src/app/entity_editor_window.cpp.s
+
+src/app/main_window.o: src/app/main_window.cpp.o
+.PHONY : src/app/main_window.o
+
+# target to build an object file
+src/app/main_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.o
+.PHONY : src/app/main_window.cpp.o
+
+src/app/main_window.i: src/app/main_window.cpp.i
+.PHONY : src/app/main_window.i
+
+# target to preprocess a source file
+src/app/main_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.i
+.PHONY : src/app/main_window.cpp.i
+
+src/app/main_window.s: src/app/main_window.cpp.s
+.PHONY : src/app/main_window.s
+
+# target to generate assembly for a file
+src/app/main_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.s
+.PHONY : src/app/main_window.cpp.s
+
+src/app/scene_window.o: src/app/scene_window.cpp.o
+.PHONY : src/app/scene_window.o
+
+# target to build an object file
+src/app/scene_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.o
+.PHONY : src/app/scene_window.cpp.o
+
+src/app/scene_window.i: src/app/scene_window.cpp.i
+.PHONY : src/app/scene_window.i
+
+# target to preprocess a source file
+src/app/scene_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.i
+.PHONY : src/app/scene_window.cpp.i
+
+src/app/scene_window.s: src/app/scene_window.cpp.s
+.PHONY : src/app/scene_window.s
+
+# target to generate assembly for a file
+src/app/scene_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.s
+.PHONY : src/app/scene_window.cpp.s
+
+src/app/settings_window.o: src/app/settings_window.cpp.o
+.PHONY : src/app/settings_window.o
+
+# target to build an object file
+src/app/settings_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.o
+.PHONY : src/app/settings_window.cpp.o
+
+src/app/settings_window.i: src/app/settings_window.cpp.i
+.PHONY : src/app/settings_window.i
+
+# target to preprocess a source file
+src/app/settings_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.i
+.PHONY : src/app/settings_window.cpp.i
+
+src/app/settings_window.s: src/app/settings_window.cpp.s
+.PHONY : src/app/settings_window.s
+
+# target to generate assembly for a file
+src/app/settings_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.s
+.PHONY : src/app/settings_window.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -238,6 +358,30 @@ src/renderer/renderer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.s
 .PHONY : src/renderer/renderer.cpp.s
 
+src/utils/event_bus.o: src/utils/event_bus.cpp.o
+.PHONY : src/utils/event_bus.o
+
+# target to build an object file
+src/utils/event_bus.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.o
+.PHONY : src/utils/event_bus.cpp.o
+
+src/utils/event_bus.i: src/utils/event_bus.cpp.i
+.PHONY : src/utils/event_bus.i
+
+# target to preprocess a source file
+src/utils/event_bus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.i
+.PHONY : src/utils/event_bus.cpp.i
+
+src/utils/event_bus.s: src/utils/event_bus.cpp.s
+.PHONY : src/utils/event_bus.s
+
+# target to generate assembly for a file
+src/utils/event_bus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dear-imgui-conan.dir/build.make CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.s
+.PHONY : src/utils/event_bus.cpp.s
+
 src/utils/logger.o: src/utils/logger.cpp.o
 .PHONY : src/utils/logger.o
 
@@ -275,6 +419,21 @@ help:
 	@echo "... src/app/app.o"
 	@echo "... src/app/app.i"
 	@echo "... src/app/app.s"
+	@echo "... src/app/console_window.o"
+	@echo "... src/app/console_window.i"
+	@echo "... src/app/console_window.s"
+	@echo "... src/app/entity_editor_window.o"
+	@echo "... src/app/entity_editor_window.i"
+	@echo "... src/app/entity_editor_window.s"
+	@echo "... src/app/main_window.o"
+	@echo "... src/app/main_window.i"
+	@echo "... src/app/main_window.s"
+	@echo "... src/app/scene_window.o"
+	@echo "... src/app/scene_window.i"
+	@echo "... src/app/scene_window.s"
+	@echo "... src/app/settings_window.o"
+	@echo "... src/app/settings_window.i"
+	@echo "... src/app/settings_window.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -284,6 +443,9 @@ help:
 	@echo "... src/renderer/renderer.o"
 	@echo "... src/renderer/renderer.i"
 	@echo "... src/renderer/renderer.s"
+	@echo "... src/utils/event_bus.o"
+	@echo "... src/utils/event_bus.i"
+	@echo "... src/utils/event_bus.s"
 	@echo "... src/utils/logger.o"
 	@echo "... src/utils/logger.i"
 	@echo "... src/utils/logger.s"

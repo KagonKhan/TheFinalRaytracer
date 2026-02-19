@@ -1,8 +1,8 @@
 CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o: \
- /home/sszynk/projects/templates/src/utils/logger.cpp \
+ /home/sszynk/projects/TheFinalRaytracer/src/utils/logger.cpp \
  /usr/include/stdc-predef.h \
- /home/sszynk/projects/templates/src/utils/logger.hpp \
- /home/sszynk/projects/templates/src/utils/meta.hpp \
+ /home/sszynk/projects/TheFinalRaytracer/src/utils/logger.hpp \
+ /home/sszynk/projects/TheFinalRaytracer/src/utils/meta.hpp \
  /usr/include/c++/14/array /usr/include/c++/14/compare \
  /usr/include/c++/14/bits/version.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \

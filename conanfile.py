@@ -17,6 +17,7 @@ class ImGuiExample(ConanFile):
         self.requires("glew/2.2.0")
         self.requires("stb/cci.20240531")
         self.requires("spdlog/1.17.0")
+        self.requires("eventbus/3.1.2")
         
         
     def system_requirements(self):

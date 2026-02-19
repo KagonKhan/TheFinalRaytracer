@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sszynk/projects/templates
+CMAKE_SOURCE_DIR = /home/sszynk/projects/TheFinalRaytracer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sszynk/projects/templates/build/Debug
+CMAKE_BINARY_DIR = /home/sszynk/projects/TheFinalRaytracer/build/Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sszynk/projects/templates/build/Debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/sszynk/projects/templates/build/Debug/CMakeFiles /home/sszynk/projects/templates/build/Debug/bindings//CMakeFiles/progress.marks
-	cd /home/sszynk/projects/templates/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bindings/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sszynk/projects/templates/build/Debug/CMakeFiles 0
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles /home/sszynk/projects/TheFinalRaytracer/build/Debug/bindings//CMakeFiles/progress.marks
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bindings/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sszynk/projects/templates/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bindings/clean
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bindings/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sszynk/projects/templates/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bindings/preinstall
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bindings/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sszynk/projects/templates/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bindings/preinstall
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bindings/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sszynk/projects/templates/build/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 bindings/CMakeFiles/ImguiBindings.dir/rule:
-	cd /home/sszynk/projects/templates/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bindings/CMakeFiles/ImguiBindings.dir/rule
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bindings/CMakeFiles/ImguiBindings.dir/rule
 .PHONY : bindings/CMakeFiles/ImguiBindings.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ ImguiBindings: bindings/CMakeFiles/ImguiBindings.dir/rule
 
 # fast build rule for target.
 ImguiBindings/fast:
-	cd /home/sszynk/projects/templates/build/Debug && $(MAKE) $(MAKESILENT) -f bindings/CMakeFiles/ImguiBindings.dir/build.make bindings/CMakeFiles/ImguiBindings.dir/build
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug && $(MAKE) $(MAKESILENT) -f bindings/CMakeFiles/ImguiBindings.dir/build.make bindings/CMakeFiles/ImguiBindings.dir/build
 .PHONY : ImguiBindings/fast
 
 imgui/imgui_impl_glfw.o: imgui/imgui_impl_glfw.cpp.o
@@ -135,7 +135,7 @@ imgui/imgui_impl_glfw.o: imgui/imgui_impl_glfw.cpp.o
 
 # target to build an object file
 imgui/imgui_impl_glfw.cpp.o:
-	cd /home/sszynk/projects/templates/build/Debug && $(MAKE) $(MAKESILENT) -f bindings/CMakeFiles/ImguiBindings.dir/build.make bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug && $(MAKE) $(MAKESILENT) -f bindings/CMakeFiles/ImguiBindings.dir/build.make bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o
 .PHONY : imgui/imgui_impl_glfw.cpp.o
 
 imgui/imgui_impl_glfw.i: imgui/imgui_impl_glfw.cpp.i
@@ -143,7 +143,7 @@ imgui/imgui_impl_glfw.i: imgui/imgui_impl_glfw.cpp.i
 
 # target to preprocess a source file
 imgui/imgui_impl_glfw.cpp.i:
-	cd /home/sszynk/projects/templates/build/Debug && $(MAKE) $(MAKESILENT) -f bindings/CMakeFiles/ImguiBindings.dir/build.make bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.i
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug && $(MAKE) $(MAKESILENT) -f bindings/CMakeFiles/ImguiBindings.dir/build.make bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.i
 .PHONY : imgui/imgui_impl_glfw.cpp.i
 
 imgui/imgui_impl_glfw.s: imgui/imgui_impl_glfw.cpp.s
@@ -151,7 +151,7 @@ imgui/imgui_impl_glfw.s: imgui/imgui_impl_glfw.cpp.s
 
 # target to generate assembly for a file
 imgui/imgui_impl_glfw.cpp.s:
-	cd /home/sszynk/projects/templates/build/Debug && $(MAKE) $(MAKESILENT) -f bindings/CMakeFiles/ImguiBindings.dir/build.make bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.s
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug && $(MAKE) $(MAKESILENT) -f bindings/CMakeFiles/ImguiBindings.dir/build.make bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.s
 .PHONY : imgui/imgui_impl_glfw.cpp.s
 
 imgui/imgui_impl_opengl3.o: imgui/imgui_impl_opengl3.cpp.o
@@ -159,7 +159,7 @@ imgui/imgui_impl_opengl3.o: imgui/imgui_impl_opengl3.cpp.o
 
 # target to build an object file
 imgui/imgui_impl_opengl3.cpp.o:
-	cd /home/sszynk/projects/templates/build/Debug && $(MAKE) $(MAKESILENT) -f bindings/CMakeFiles/ImguiBindings.dir/build.make bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug && $(MAKE) $(MAKESILENT) -f bindings/CMakeFiles/ImguiBindings.dir/build.make bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o
 .PHONY : imgui/imgui_impl_opengl3.cpp.o
 
 imgui/imgui_impl_opengl3.i: imgui/imgui_impl_opengl3.cpp.i
@@ -167,7 +167,7 @@ imgui/imgui_impl_opengl3.i: imgui/imgui_impl_opengl3.cpp.i
 
 # target to preprocess a source file
 imgui/imgui_impl_opengl3.cpp.i:
-	cd /home/sszynk/projects/templates/build/Debug && $(MAKE) $(MAKESILENT) -f bindings/CMakeFiles/ImguiBindings.dir/build.make bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.i
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug && $(MAKE) $(MAKESILENT) -f bindings/CMakeFiles/ImguiBindings.dir/build.make bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.i
 .PHONY : imgui/imgui_impl_opengl3.cpp.i
 
 imgui/imgui_impl_opengl3.s: imgui/imgui_impl_opengl3.cpp.s
@@ -175,7 +175,7 @@ imgui/imgui_impl_opengl3.s: imgui/imgui_impl_opengl3.cpp.s
 
 # target to generate assembly for a file
 imgui/imgui_impl_opengl3.cpp.s:
-	cd /home/sszynk/projects/templates/build/Debug && $(MAKE) $(MAKESILENT) -f bindings/CMakeFiles/ImguiBindings.dir/build.make bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.s
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug && $(MAKE) $(MAKESILENT) -f bindings/CMakeFiles/ImguiBindings.dir/build.make bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.s
 .PHONY : imgui/imgui_impl_opengl3.cpp.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sszynk/projects/templates/build/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

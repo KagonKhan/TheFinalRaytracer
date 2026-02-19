@@ -14,6 +14,7 @@ add_subdirectory(bindings)
 
 find_package(stb REQUIRED)
 find_package(spdlog REQUIRED)
+find_package(EventBus REQUIRED)
 
 # =======================    PROJECT    ==========================
 
@@ -22,11 +23,18 @@ add_executable(dear-imgui-conan
     src/main.cpp
 
     src/app/app.cpp
+    src/app/main_window.cpp
+    src/app/console_window.cpp
+    src/app/entity_editor_window.cpp
+    src/app/scene_window.cpp
+    src/app/settings_window.cpp
+
 
     src/renderer/image.cpp
     src/renderer/renderer.cpp
 
     src/utils/logger.cpp
+    src/utils/event_bus.cpp
 )
 
 target_include_directories(dear-imgui-conan PUBLIC src)
@@ -36,7 +44,7 @@ target_link_libraries(dear-imgui-conan PUBLIC
     
     stb::stb
     spdlog::spdlog
-
+    Dexode::EventBus
 )
 
 target_compile_definitions(dear-imgui-conan PUBLIC RESOURCE_DIR=${PROJECT_SOURCE_DIR}/resources)

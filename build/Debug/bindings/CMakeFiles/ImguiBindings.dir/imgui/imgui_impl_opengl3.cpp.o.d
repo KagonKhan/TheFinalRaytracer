@@ -1,5 +1,5 @@
 bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o: \
- /home/sszynk/projects/templates/bindings/imgui/imgui_impl_opengl3.cpp \
+ /home/sszynk/projects/TheFinalRaytracer/bindings/imgui/imgui_impl_opengl3.cpp \
  /usr/include/stdc-predef.h \
  /home/sszynk/.conan2/p/b/imgui41d48c139ffc4/p/include/imgui.h \
  /home/sszynk/.conan2/p/b/imgui41d48c139ffc4/p/include/imgui_export_headers.h \
@@ -18,7 +18,7 @@ bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/assert.h \
- /home/sszynk/projects/templates/bindings/imgui/imgui_impl_opengl3.h \
+ /home/sszynk/projects/TheFinalRaytracer/bindings/imgui/imgui_impl_opengl3.h \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
@@ -37,7 +37,7 @@ bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/sszynk/projects/templates/bindings/imgui/imgui_impl_opengl3_loader.h \
+ /home/sszynk/projects/TheFinalRaytracer/bindings/imgui/imgui_impl_opengl3_loader.h \
  /usr/include/c++/14/stdlib.h /usr/include/c++/14/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \

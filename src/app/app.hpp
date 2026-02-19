@@ -1,11 +1,14 @@
 #ifndef YARR_APP_APP_HPP
 #define YARR_APP_APP_HPP
 
+#include "main_window.hpp"
 #include "renderer/renderer.hpp"
 
 #include <GLFW/glfw3.h>
 
+#include <memory>
 #include <string>
+
 
 class App
 {
@@ -22,8 +25,9 @@ private:
     void startNewFrame();
     void finishFrame();
 
-    GLFWwindow* window;
-    Renderer*   renderer;
+    GLFWwindow*                 window;
+    std::unique_ptr<MainWindow> main_window;
+    std::unique_ptr<Renderer>   renderer;
 };
 
 #endif

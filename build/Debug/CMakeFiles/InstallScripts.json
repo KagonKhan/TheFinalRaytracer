@@ -1,8 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/sszynk/projects/templates/build/Debug/cmake_install.cmake",
-		"/home/sszynk/projects/templates/build/Debug/bindings/cmake_install.cmake"
+		"/home/sszynk/projects/TheFinalRaytracer/build/Debug/cmake_install.cmake",
+		"/home/sszynk/projects/TheFinalRaytracer/build/Debug/bindings/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

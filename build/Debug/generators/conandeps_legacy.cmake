@@ -6,5 +6,6 @@ find_package(glfw3)
 find_package(glew)
 find_package(stb)
 find_package(spdlog)
+find_package(EventBus)
 
-set(CONANDEPS_LEGACY  imgui::imgui  glfw  GLEW::GLEW  stb::stb  spdlog::spdlog )
+set(CONANDEPS_LEGACY  imgui::imgui  glfw  GLEW::GLEW  stb::stb  spdlog::spdlog  Dexode::EventBus )

@@ -1,4 +1,4 @@
-script_folder="/home/sszynk/projects/templates/build/Debug/generators"
+script_folder="/home/sszynk/projects/TheFinalRaytracer/build/Debug/generators"
 echo "echo Restoring environment" > "$script_folder/deactivate_conanrunenv-debug-x86_64.sh"
 for v in LD_LIBRARY_PATH DYLD_LIBRARY_PATH
 do

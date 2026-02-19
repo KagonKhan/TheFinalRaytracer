@@ -22,7 +22,7 @@
                 "ACLOCAL_PATH": "$penv{ACLOCAL_PATH}:/home/sszynk/.conan2/p/xorg-a7814e7f591fa/p/bin/share/aclocal"
             },
             "toolchainFile": "generators/conan_toolchain.cmake",
-            "binaryDir": "/home/sszynk/projects/templates/build/Debug"
+            "binaryDir": "/home/sszynk/projects/TheFinalRaytracer/build/Debug"
         }
     ],
     "buildPresets": [

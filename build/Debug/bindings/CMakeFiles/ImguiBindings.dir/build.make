@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sszynk/projects/templates
+CMAKE_SOURCE_DIR = /home/sszynk/projects/TheFinalRaytracer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sszynk/projects/templates/build/Debug
+CMAKE_BINARY_DIR = /home/sszynk/projects/TheFinalRaytracer/build/Debug
 
 # Include any dependencies generated for this target.
 include bindings/CMakeFiles/ImguiBindings.dir/depend.make
@@ -73,32 +73,32 @@ bindings/CMakeFiles/ImguiBindings.dir/codegen:
 .PHONY : bindings/CMakeFiles/ImguiBindings.dir/codegen
 
 bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o: bindings/CMakeFiles/ImguiBindings.dir/flags.make
-bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o: /home/sszynk/projects/templates/bindings/imgui/imgui_impl_glfw.cpp
+bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o: /home/sszynk/projects/TheFinalRaytracer/bindings/imgui/imgui_impl_glfw.cpp
 bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o: bindings/CMakeFiles/ImguiBindings.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/templates/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o"
-	cd /home/sszynk/projects/templates/build/Debug/bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o -MF CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o.d -o CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o -c /home/sszynk/projects/templates/bindings/imgui/imgui_impl_glfw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o"
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug/bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o -MF CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o.d -o CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o -c /home/sszynk/projects/TheFinalRaytracer/bindings/imgui/imgui_impl_glfw.cpp
 
 bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.i"
-	cd /home/sszynk/projects/templates/build/Debug/bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/templates/bindings/imgui/imgui_impl_glfw.cpp > CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.i
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug/bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/TheFinalRaytracer/bindings/imgui/imgui_impl_glfw.cpp > CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.i
 
 bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.s"
-	cd /home/sszynk/projects/templates/build/Debug/bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/templates/bindings/imgui/imgui_impl_glfw.cpp -o CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.s
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug/bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/TheFinalRaytracer/bindings/imgui/imgui_impl_glfw.cpp -o CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.s
 
 bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o: bindings/CMakeFiles/ImguiBindings.dir/flags.make
-bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o: /home/sszynk/projects/templates/bindings/imgui/imgui_impl_opengl3.cpp
+bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o: /home/sszynk/projects/TheFinalRaytracer/bindings/imgui/imgui_impl_opengl3.cpp
 bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o: bindings/CMakeFiles/ImguiBindings.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/templates/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o"
-	cd /home/sszynk/projects/templates/build/Debug/bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o -MF CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o -c /home/sszynk/projects/templates/bindings/imgui/imgui_impl_opengl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o"
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug/bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o -MF CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o -c /home/sszynk/projects/TheFinalRaytracer/bindings/imgui/imgui_impl_opengl3.cpp
 
 bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.i"
-	cd /home/sszynk/projects/templates/build/Debug/bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/templates/bindings/imgui/imgui_impl_opengl3.cpp > CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.i
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug/bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/TheFinalRaytracer/bindings/imgui/imgui_impl_opengl3.cpp > CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.i
 
 bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.s"
-	cd /home/sszynk/projects/templates/build/Debug/bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/templates/bindings/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.s
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug/bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/TheFinalRaytracer/bindings/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.s
 
 # Object files for target ImguiBindings
 ImguiBindings_OBJECTS = \
@@ -112,19 +112,19 @@ bindings/libImguiBindings.a: bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_i
 bindings/libImguiBindings.a: bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o
 bindings/libImguiBindings.a: bindings/CMakeFiles/ImguiBindings.dir/build.make
 bindings/libImguiBindings.a: bindings/CMakeFiles/ImguiBindings.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sszynk/projects/templates/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libImguiBindings.a"
-	cd /home/sszynk/projects/templates/build/Debug/bindings && $(CMAKE_COMMAND) -P CMakeFiles/ImguiBindings.dir/cmake_clean_target.cmake
-	cd /home/sszynk/projects/templates/build/Debug/bindings && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ImguiBindings.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libImguiBindings.a"
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug/bindings && $(CMAKE_COMMAND) -P CMakeFiles/ImguiBindings.dir/cmake_clean_target.cmake
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug/bindings && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ImguiBindings.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 bindings/CMakeFiles/ImguiBindings.dir/build: bindings/libImguiBindings.a
 .PHONY : bindings/CMakeFiles/ImguiBindings.dir/build
 
 bindings/CMakeFiles/ImguiBindings.dir/clean:
-	cd /home/sszynk/projects/templates/build/Debug/bindings && $(CMAKE_COMMAND) -P CMakeFiles/ImguiBindings.dir/cmake_clean.cmake
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug/bindings && $(CMAKE_COMMAND) -P CMakeFiles/ImguiBindings.dir/cmake_clean.cmake
 .PHONY : bindings/CMakeFiles/ImguiBindings.dir/clean
 
 bindings/CMakeFiles/ImguiBindings.dir/depend:
-	cd /home/sszynk/projects/templates/build/Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sszynk/projects/templates /home/sszynk/projects/templates/bindings /home/sszynk/projects/templates/build/Debug /home/sszynk/projects/templates/build/Debug/bindings /home/sszynk/projects/templates/build/Debug/bindings/CMakeFiles/ImguiBindings.dir/DependInfo.cmake "--color=$(COLOR)" ImguiBindings
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sszynk/projects/TheFinalRaytracer /home/sszynk/projects/TheFinalRaytracer/bindings /home/sszynk/projects/TheFinalRaytracer/build/Debug /home/sszynk/projects/TheFinalRaytracer/build/Debug/bindings /home/sszynk/projects/TheFinalRaytracer/build/Debug/bindings/CMakeFiles/ImguiBindings.dir/DependInfo.cmake "--color=$(COLOR)" ImguiBindings
 .PHONY : bindings/CMakeFiles/ImguiBindings.dir/depend
 

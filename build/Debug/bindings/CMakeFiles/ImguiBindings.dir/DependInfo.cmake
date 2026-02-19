@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/sszynk/projects/templates/bindings/imgui/imgui_impl_glfw.cpp" "bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o" "gcc" "bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o.d"
-  "/home/sszynk/projects/templates/bindings/imgui/imgui_impl_opengl3.cpp" "bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o" "gcc" "bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o.d"
+  "/home/sszynk/projects/TheFinalRaytracer/bindings/imgui/imgui_impl_glfw.cpp" "bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o" "gcc" "bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o.d"
+  "/home/sszynk/projects/TheFinalRaytracer/bindings/imgui/imgui_impl_opengl3.cpp" "bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o" "gcc" "bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

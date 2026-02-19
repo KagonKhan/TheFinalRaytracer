@@ -8,11 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/sszynk/projects/templates/src/app/app.cpp" "CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o" "gcc" "CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o.d"
-  "/home/sszynk/projects/templates/src/main.cpp" "CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o" "gcc" "CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o.d"
-  "/home/sszynk/projects/templates/src/renderer/image.cpp" "CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o" "gcc" "CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o.d"
-  "/home/sszynk/projects/templates/src/renderer/renderer.cpp" "CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o" "gcc" "CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o.d"
-  "/home/sszynk/projects/templates/src/utils/logger.cpp" "CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o" "gcc" "CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o.d"
+  "/home/sszynk/projects/TheFinalRaytracer/src/app/app.cpp" "CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o" "gcc" "CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o.d"
+  "/home/sszynk/projects/TheFinalRaytracer/src/app/console_window.cpp" "CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.o" "gcc" "CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.o.d"
+  "/home/sszynk/projects/TheFinalRaytracer/src/app/entity_editor_window.cpp" "CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.o" "gcc" "CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.o.d"
+  "/home/sszynk/projects/TheFinalRaytracer/src/app/main_window.cpp" "CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.o" "gcc" "CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.o.d"
+  "/home/sszynk/projects/TheFinalRaytracer/src/app/scene_window.cpp" "CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.o" "gcc" "CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.o.d"
+  "/home/sszynk/projects/TheFinalRaytracer/src/app/settings_window.cpp" "CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.o" "gcc" "CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.o.d"
+  "/home/sszynk/projects/TheFinalRaytracer/src/main.cpp" "CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o" "gcc" "CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o.d"
+  "/home/sszynk/projects/TheFinalRaytracer/src/renderer/image.cpp" "CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o" "gcc" "CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o.d"
+  "/home/sszynk/projects/TheFinalRaytracer/src/renderer/renderer.cpp" "CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o" "gcc" "CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o.d"
+  "/home/sszynk/projects/TheFinalRaytracer/src/utils/event_bus.cpp" "CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.o" "gcc" "CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.o.d"
+  "/home/sszynk/projects/TheFinalRaytracer/src/utils/logger.cpp" "CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o" "gcc" "CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o.d"
   "" "dear-imgui-conan" "gcc" "CMakeFiles/dear-imgui-conan.dir/link.d"
   )
 

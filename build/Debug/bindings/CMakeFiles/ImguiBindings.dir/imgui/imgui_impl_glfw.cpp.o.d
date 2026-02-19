@@ -1,5 +1,5 @@
 bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o: \
- /home/sszynk/projects/templates/bindings/imgui/imgui_impl_glfw.cpp \
+ /home/sszynk/projects/TheFinalRaytracer/bindings/imgui/imgui_impl_glfw.cpp \
  /usr/include/stdc-predef.h \
  /home/sszynk/.conan2/p/b/imgui41d48c139ffc4/p/include/imgui.h \
  /home/sszynk/.conan2/p/b/imgui41d48c139ffc4/p/include/imgui_export_headers.h \
@@ -18,7 +18,7 @@ bindings/CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/assert.h \
- /home/sszynk/projects/templates/bindings/imgui/imgui_impl_glfw.h \
+ /home/sszynk/projects/TheFinalRaytracer/bindings/imgui/imgui_impl_glfw.h \
  /home/sszynk/.conan2/p/b/glfwba1a4a54a73d0/p/include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \

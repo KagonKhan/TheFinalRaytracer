@@ -7,10 +7,15 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/sszynk/projects/templates/CMakeLists.txt"
-  "/home/sszynk/projects/templates/bindings/CMakeLists.txt"
+  "/home/sszynk/projects/TheFinalRaytracer/CMakeLists.txt"
+  "/home/sszynk/projects/TheFinalRaytracer/bindings/CMakeLists.txt"
   "CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeSystem.cmake"
+  "generators/EventBus-Target-debug.cmake"
+  "generators/EventBus-debug-x86_64-data.cmake"
+  "generators/EventBusConfig.cmake"
+  "generators/EventBusConfigVersion.cmake"
+  "generators/EventBusTargets.cmake"
   "generators/cmakedeps_macros.cmake"
   "generators/conan_toolchain.cmake"
   "generators/fmt-Target-debug.cmake"

@@ -1,1 +1,1 @@
-. "/home/sszynk/projects/templates/build/Debug/generators/deactivate_conanbuildenv-debug-x86_64.sh"
+. "/home/sszynk/projects/TheFinalRaytracer/build/Debug/generators/deactivate_conanbuildenv-debug-x86_64.sh"

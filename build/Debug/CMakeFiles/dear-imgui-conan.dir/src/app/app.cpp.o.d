@@ -1,16 +1,12 @@
 CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o: \
- /home/sszynk/projects/templates/src/app/app.cpp \
+ /home/sszynk/projects/TheFinalRaytracer/src/app/app.cpp \
  /usr/include/stdc-predef.h \
- /home/sszynk/projects/templates/src/app/app.hpp \
- /home/sszynk/projects/templates/src/renderer/renderer.hpp \
- /home/sszynk/projects/templates/src/renderer/image.hpp \
- /home/sszynk/.conan2/p/b/imgui41d48c139ffc4/p/include/imgui.h \
- /home/sszynk/.conan2/p/b/imgui41d48c139ffc4/p/include/imgui_export_headers.h \
- /home/sszynk/.conan2/p/b/imgui41d48c139ffc4/p/include/imconfig.h \
- /usr/lib/gcc/x86_64-linux-gnu/14/include/float.h \
- /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h \
- /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h /usr/include/string.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /home/sszynk/projects/TheFinalRaytracer/src/app/app.hpp \
+ /home/sszynk/projects/TheFinalRaytracer/src/app/main_window.hpp \
+ /home/sszynk/projects/TheFinalRaytracer/src/app/console_window.hpp \
+ /usr/include/c++/14/string /usr/include/c++/14/bits/requires_hosted.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
@@ -18,37 +14,26 @@ CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/long-double.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /usr/include/assert.h \
- /home/sszynk/.conan2/p/b/glfwba1a4a54a73d0/p/include/GLFW/glfw3.h \
- /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h \
- /usr/include/x86_64-linux-gnu/bits/time64.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/sszynk/.conan2/p/b/libgl450b8723c8df0/p/include/GL/gl.h \
- /home/sszynk/.conan2/p/b/libgl450b8723c8df0/p/include/GL/glext.h \
- /home/sszynk/.conan2/p/b/libgl450b8723c8df0/p/include/KHR/khrplatform.h \
- /usr/include/c++/14/string /usr/include/c++/14/bits/requires_hosted.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/cpu_defines.h \
  /usr/include/c++/14/pstl/pstl_config.h \
  /usr/include/c++/14/bits/stringfwd.h \
  /usr/include/c++/14/bits/memoryfwd.h \
  /usr/include/c++/14/bits/char_traits.h \
  /usr/include/c++/14/bits/postypes.h /usr/include/c++/14/cwchar \
- /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/c++/14/type_traits /usr/include/c++/14/bits/version.h \
  /usr/include/c++/14/compare /usr/include/c++/14/concepts \
  /usr/include/c++/14/bits/stl_construct.h /usr/include/c++/14/new \
@@ -71,6 +56,9 @@ CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o: \
  /usr/include/c++/14/clocale /usr/include/locale.h \
  /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/14/iosfwd \
  /usr/include/c++/14/cctype /usr/include/ctype.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
  /usr/include/x86_64-linux-gnu/bits/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endianness.h \
  /usr/include/c++/14/bits/ostream_insert.h \
@@ -101,7 +89,8 @@ CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
  /usr/include/x86_64-linux-gnu/sys/select.h \
@@ -134,17 +123,31 @@ CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o: \
  /usr/include/c++/14/bits/uses_allocator.h \
  /usr/include/c++/14/bits/uses_allocator_args.h /usr/include/c++/14/tuple \
  /usr/include/c++/14/bits/ranges_util.h \
- /home/sszynk/projects/templates/src/app/exceptions.hpp \
- /usr/include/c++/14/stdexcept /usr/include/c++/14/exception \
+ /home/sszynk/projects/TheFinalRaytracer/src/app/entity_editor_window.hpp \
+ /home/sszynk/projects/TheFinalRaytracer/src/app/scene_window.hpp \
+ /home/sszynk/projects/TheFinalRaytracer/src/utils/event_bus.hpp \
+ /home/sszynk/.conan2/p/b/event6eea10dbc39e6/p/include/dexode/EventBus.hpp \
+ /usr/include/c++/14/any /usr/include/c++/14/typeinfo \
+ /usr/include/c++/14/limits /usr/include/c++/14/map \
+ /usr/include/c++/14/bits/stl_tree.h \
+ /usr/include/c++/14/ext/aligned_buffer.h \
+ /usr/include/c++/14/bits/node_handle.h \
+ /usr/include/c++/14/bits/stl_map.h \
+ /usr/include/c++/14/bits/stl_multimap.h \
+ /usr/include/c++/14/bits/erase_if.h /usr/include/c++/14/memory \
+ /usr/include/c++/14/bits/stl_tempbuf.h \
+ /usr/include/c++/14/bits/stl_uninitialized.h \
+ /usr/include/c++/14/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/14/bits/align.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /usr/include/c++/14/bits/unique_ptr.h /usr/include/c++/14/ostream \
+ /usr/include/c++/14/ios /usr/include/c++/14/exception \
  /usr/include/c++/14/bits/exception_ptr.h \
  /usr/include/c++/14/bits/cxxabi_init_exception.h \
- /usr/include/c++/14/typeinfo /usr/include/c++/14/bits/nested_exception.h \
- /usr/include/c++/14/format /usr/include/c++/14/array \
- /usr/include/c++/14/charconv \
- /usr/include/x86_64-linux-gnu/c++/14/bits/error_constants.h \
- /usr/include/c++/14/limits /usr/include/c++/14/locale \
- /usr/include/c++/14/bits/locale_classes.h \
- /usr/include/c++/14/ext/atomicity.h \
+ /usr/include/c++/14/bits/nested_exception.h \
+ /usr/include/c++/14/bits/ios_base.h /usr/include/c++/14/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h \
@@ -160,15 +163,22 @@ CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+ /usr/include/c++/14/bits/locale_classes.h \
  /usr/include/c++/14/bits/locale_classes.tcc \
+ /usr/include/c++/14/system_error \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/error_constants.h \
+ /usr/include/c++/14/stdexcept /usr/include/c++/14/streambuf \
+ /usr/include/c++/14/bits/streambuf.tcc \
+ /usr/include/c++/14/bits/basic_ios.h \
  /usr/include/c++/14/bits/locale_facets.h /usr/include/c++/14/cwctype \
  /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/ctype_base.h \
- /usr/include/c++/14/bits/ios_base.h /usr/include/c++/14/system_error \
- /usr/include/c++/14/streambuf /usr/include/c++/14/bits/streambuf.tcc \
  /usr/include/c++/14/bits/streambuf_iterator.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/ctype_inline.h \
  /usr/include/c++/14/bits/locale_facets.tcc \
+ /usr/include/c++/14/bits/basic_ios.tcc /usr/include/c++/14/format \
+ /usr/include/c++/14/array /usr/include/c++/14/charconv \
+ /usr/include/c++/14/locale \
  /usr/include/c++/14/bits/locale_facets_nonio.h /usr/include/c++/14/ctime \
  /usr/include/x86_64-linux-gnu/c++/14/bits/time_members.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/messages_members.h \
@@ -184,7 +194,201 @@ CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o: \
  /usr/include/c++/14/bits/algorithmfwd.h \
  /usr/include/c++/14/bits/stl_heap.h \
  /usr/include/c++/14/bits/uniform_int_dist.h \
- /usr/include/c++/14/bits/stl_tempbuf.h \
  /usr/include/c++/14/bits/unicode-data.h \
- /home/sszynk/projects/templates/bindings/imgui/imgui_impl_glfw.h \
- /home/sszynk/projects/templates/bindings/imgui/imgui_impl_opengl3.h
+ /usr/include/c++/14/bits/ostream.tcc \
+ /usr/include/c++/14/bits/shared_ptr.h \
+ /usr/include/c++/14/bits/shared_ptr_base.h \
+ /usr/include/c++/14/bits/allocated_ptr.h \
+ /usr/include/c++/14/ext/concurrence.h \
+ /usr/include/c++/14/bits/shared_ptr_atomic.h \
+ /usr/include/c++/14/bits/atomic_base.h \
+ /usr/include/c++/14/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/14/bits/atomic_wait.h /usr/include/c++/14/climits \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/syscall.h \
+ /usr/include/x86_64-linux-gnu/sys/syscall.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
+ /usr/include/x86_64-linux-gnu/bits/syscall.h \
+ /usr/include/c++/14/bits/std_mutex.h \
+ /usr/include/c++/14/backward/auto_ptr.h \
+ /usr/include/c++/14/bits/ranges_uninitialized.h \
+ /usr/include/c++/14/bits/out_ptr.h \
+ /usr/include/c++/14/pstl/glue_memory_defs.h \
+ /usr/include/c++/14/pstl/execution_defs.h \
+ /usr/include/c++/14/shared_mutex /usr/include/c++/14/bits/chrono.h \
+ /usr/include/c++/14/ratio /usr/include/c++/14/iterator \
+ /usr/include/c++/14/bits/stream_iterator.h \
+ /home/sszynk/.conan2/p/b/event6eea10dbc39e6/p/include/dexode/eventbus/Bus.hpp \
+ /usr/include/c++/14/atomic \
+ /home/sszynk/.conan2/p/b/event6eea10dbc39e6/p/include/dexode/eventbus/Listener.hpp \
+ /usr/include/c++/14/functional /usr/include/c++/14/bits/std_function.h \
+ /usr/include/c++/14/unordered_map \
+ /usr/include/c++/14/bits/unordered_map.h \
+ /usr/include/c++/14/bits/hashtable.h \
+ /usr/include/c++/14/bits/hashtable_policy.h /usr/include/c++/14/vector \
+ /usr/include/c++/14/bits/stl_vector.h \
+ /usr/include/c++/14/bits/stl_bvector.h \
+ /usr/include/c++/14/bits/vector.tcc \
+ /usr/include/c++/14/bits/move_only_function.h \
+ /usr/include/c++/14/bits/mofunc_impl.h \
+ /home/sszynk/.conan2/p/b/event6eea10dbc39e6/p/include/dexode/eventbus/internal/ListenerAttorney.hpp \
+ /home/sszynk/.conan2/p/b/event6eea10dbc39e6/p/include/dexode/eventbus/internal/event_id.hpp \
+ /home/sszynk/.conan2/p/b/event6eea10dbc39e6/p/include/dexode/eventbus/stream/EventStream.hpp \
+ /home/sszynk/.conan2/p/b/event6eea10dbc39e6/p/include/dexode/eventbus/internal/listener_traits.hpp \
+ /home/sszynk/.conan2/p/b/event6eea10dbc39e6/p/include/dexode/eventbus/stream/ProtectedEventStream.hpp \
+ /usr/include/c++/14/algorithm /usr/include/c++/14/bits/ranges_algo.h \
+ /usr/include/c++/14/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/14/cassert /usr/include/assert.h \
+ /home/sszynk/projects/TheFinalRaytracer/src/app/settings_window.hpp \
+ /home/sszynk/.conan2/p/b/imgui41d48c139ffc4/p/include/imgui.h \
+ /home/sszynk/.conan2/p/b/imgui41d48c139ffc4/p/include/imgui_export_headers.h \
+ /home/sszynk/.conan2/p/b/imgui41d48c139ffc4/p/include/imconfig.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/float.h /usr/include/string.h \
+ /usr/include/strings.h \
+ /home/sszynk/projects/TheFinalRaytracer/src/renderer/renderer.hpp \
+ /home/sszynk/projects/TheFinalRaytracer/src/renderer/image.hpp \
+ /home/sszynk/.conan2/p/b/glfwba1a4a54a73d0/p/include/GLFW/glfw3.h \
+ /home/sszynk/.conan2/p/b/libgl450b8723c8df0/p/include/GL/gl.h \
+ /home/sszynk/.conan2/p/b/libgl450b8723c8df0/p/include/GL/glext.h \
+ /home/sszynk/.conan2/p/b/libgl450b8723c8df0/p/include/KHR/khrplatform.h \
+ /home/sszynk/projects/TheFinalRaytracer/src/app/exceptions.hpp \
+ /home/sszynk/projects/TheFinalRaytracer/bindings/imgui/imgui_impl_glfw.h \
+ /home/sszynk/projects/TheFinalRaytracer/bindings/imgui/imgui_impl_opengl3.h \
+ /home/sszynk/.conan2/p/b/imgui41d48c139ffc4/p/include/imgui_internal.h \
+ /usr/include/c++/14/stdlib.h /usr/include/c++/14/math.h \
+ /usr/include/c++/14/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/14/bits/specfun.h /usr/include/c++/14/tr1/gamma.tcc \
+ /usr/include/c++/14/tr1/special_function_util.h \
+ /usr/include/c++/14/tr1/bessel_function.tcc \
+ /usr/include/c++/14/tr1/beta_function.tcc \
+ /usr/include/c++/14/tr1/ell_integral.tcc \
+ /usr/include/c++/14/tr1/exp_integral.tcc \
+ /usr/include/c++/14/tr1/hypergeometric.tcc \
+ /usr/include/c++/14/tr1/legendre_function.tcc \
+ /usr/include/c++/14/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/14/tr1/poly_hermite.tcc \
+ /usr/include/c++/14/tr1/poly_laguerre.tcc \
+ /usr/include/c++/14/tr1/riemann_zeta.tcc \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/immintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/x86gprintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/ia32intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/adxintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/bmiintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/bmi2intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/cetintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/cldemoteintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/clflushoptintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/clwbintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/clzerointrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/cmpccxaddintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/enqcmdintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/fxsrintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/lzcntintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/lwpintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/movdirintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/mwaitintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/mwaitxintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/pconfigintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/popcntintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/pkuintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/prfchiintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/raointintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/rdseedintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/rtmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/serializeintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/sgxintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/tbmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/tsxldtrkintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/uintrintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/waitpkgintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/wbnoinvdintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/xsaveintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/xsavecintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/xsaveoptintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/xsavesintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/xtestintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/hresetintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/usermsrintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/mmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/xmmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/mm_malloc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/emmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/pmmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/tmmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/smmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/wmmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avxintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avxvnniintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avxifmaintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avxvnniint8intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avxvnniint16intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx2intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512fintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512erintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512pfintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512cdintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512vlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512bwintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512dqintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512vlbwintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512vldqintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512ifmaintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512ifmavlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512vbmiintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512vbmivlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx5124fmapsintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx5124vnniwintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512vpopcntdqintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512vbmi2intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512vbmi2vlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512vnniintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512vnnivlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512vpopcntdqvlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512bitalgintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512bitalgvlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512vp2intersectintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512vp2intersectvlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512fp16intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512fp16vlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/shaintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/sm3intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/sha512intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/sm4intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/fmaintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/f16cintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/gfniintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/vaesintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/vpclmulqdqintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512bf16vlintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avx512bf16intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/avxneconvertintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/amxtileintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/amxint8intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/amxbf16intrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/amxcomplexintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/prfchwintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/keylockerintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/amxfp16intrin.h

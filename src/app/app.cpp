@@ -4,6 +4,9 @@
 #include "imgui.h"
 #include "imgui_impl_glfw.h"
 #include "imgui_impl_opengl3.h"
+#include "imgui_internal.h"
+
+#include "utils/event_bus.hpp"
 
 #include <GLFW/glfw3.h>
 #include <cstdio>
@@ -31,7 +34,12 @@ App::App(std::string const& title)
     initializeGLFW(title);
     initializeIMGUI();
 
-    renderer = new Renderer();
+    // Delay window initialization until after imgui has been initialized
+
+    startNewFrame();
+    main_window = std::make_unique<MainWindow>();
+    renderer    = std::make_unique<Renderer>();
+    finishFrame();
 }
 
 void App::initializeGLFW(std::string const& window_name)
@@ -106,25 +114,9 @@ void App::run(int fps)
 
         startNewFrame();
 
-        const ImGuiViewport* viewport = ImGui::GetMainViewport();
-        ImGui::SetNextWindowPos(viewport->WorkPos);
-        ImGui::SetNextWindowSize(viewport->WorkSize);
-        ImGui::SetNextWindowViewport(viewport->ID);
+        EventBus::dispatch();
 
-        ImGui::PushStyleVar(ImGuiStyleVar_WindowPadding, ImVec2(0, 0));
-        ImGui::Begin("ImGui Template", nullptr, window_flags);
-        ImGui::PopStyleVar(1);
-
-        ImGuiID dockspace_id = ImGui::GetID("RootDockSpace");
-        ImGui::DockSpace(dockspace_id, ImVec2(0.0f, 0.0f), ImGuiDockNodeFlags_None);
-
-        renderer->render();
-
-        ImGui::Begin("Console Log");
-
-        ImGui::End();
-
-        ImGui::End();
+        main_window->render();
 
         finishFrame();
     }

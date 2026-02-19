@@ -16,8 +16,7 @@ struct Test
 };
 
 
-struct Testing : private TrackingLogger<Testing>
-{};
+struct Signalled {};
 
 int main()
 {

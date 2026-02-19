@@ -4,9 +4,15 @@ dear-imgui-conan: \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o \
   CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o \
   CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o \
+  CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.o \
+  CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.o \
+  CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.o \
+  CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.o \
+  CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.o \
   CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o \
   CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o \
   CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o \
+  CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.o \
   bindings/libImguiBindings.a \
   /home/sszynk/.conan2/p/b/imgui41d48c139ffc4/p/lib/libimgui.a \
   /home/sszynk/.conan2/p/b/glew0bbd39e2a456f/p/lib/libGLEW.a \
@@ -75,6 +81,7 @@ dear-imgui-conan: \
   /home/sszynk/.conan2/p/b/spdlofbf1dc8c61c73/p/lib/libspdlog.a \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libpthread.a \
   /home/sszynk/.conan2/p/b/fmtc65fdfe548141/p/lib/libfmt.a \
+  /home/sszynk/.conan2/p/b/event6eea10dbc39e6/p/lib/libEventBus.a \
   /usr/lib/gcc/x86_64-linux-gnu/14/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libm.so \
@@ -119,11 +126,23 @@ CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o:
 
 CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o:
 
+CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.o:
+
+CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.o:
+
+CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.o:
+
+CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.o:
+
+CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.o:
+
 CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o:
 
 CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o:
 
 CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o:
+
+CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.o:
 
 bindings/libImguiBindings.a:
 
@@ -260,6 +279,8 @@ bindings/libImguiBindings.a:
 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libpthread.a:
 
 /home/sszynk/.conan2/p/b/fmtc65fdfe548141/p/lib/libfmt.a:
+
+/home/sszynk/.conan2/p/b/event6eea10dbc39e6/p/lib/libEventBus.a:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/libstdc++.so:
 

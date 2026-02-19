@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sszynk/projects/templates
+CMAKE_SOURCE_DIR = /home/sszynk/projects/TheFinalRaytracer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sszynk/projects/templates/build/Debug
+CMAKE_BINARY_DIR = /home/sszynk/projects/TheFinalRaytracer/build/Debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/dear-imgui-conan.dir/depend.make
@@ -73,91 +73,187 @@ CMakeFiles/dear-imgui-conan.dir/codegen:
 .PHONY : CMakeFiles/dear-imgui-conan.dir/codegen
 
 CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o: CMakeFiles/dear-imgui-conan.dir/flags.make
-CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o: /home/sszynk/projects/templates/src/main.cpp
+CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o: /home/sszynk/projects/TheFinalRaytracer/src/main.cpp
 CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o: CMakeFiles/dear-imgui-conan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/templates/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o -MF CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o.d -o CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o -c /home/sszynk/projects/templates/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o -MF CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o.d -o CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o -c /home/sszynk/projects/TheFinalRaytracer/src/main.cpp
 
 CMakeFiles/dear-imgui-conan.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dear-imgui-conan.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/templates/src/main.cpp > CMakeFiles/dear-imgui-conan.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/TheFinalRaytracer/src/main.cpp > CMakeFiles/dear-imgui-conan.dir/src/main.cpp.i
 
 CMakeFiles/dear-imgui-conan.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dear-imgui-conan.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/templates/src/main.cpp -o CMakeFiles/dear-imgui-conan.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/TheFinalRaytracer/src/main.cpp -o CMakeFiles/dear-imgui-conan.dir/src/main.cpp.s
 
 CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o: CMakeFiles/dear-imgui-conan.dir/flags.make
-CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o: /home/sszynk/projects/templates/src/app/app.cpp
+CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o: /home/sszynk/projects/TheFinalRaytracer/src/app/app.cpp
 CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o: CMakeFiles/dear-imgui-conan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/templates/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o -MF CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o.d -o CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o -c /home/sszynk/projects/templates/src/app/app.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o -MF CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o.d -o CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o -c /home/sszynk/projects/TheFinalRaytracer/src/app/app.cpp
 
 CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/templates/src/app/app.cpp > CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/TheFinalRaytracer/src/app/app.cpp > CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.i
 
 CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/templates/src/app/app.cpp -o CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/TheFinalRaytracer/src/app/app.cpp -o CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.s
+
+CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.o: CMakeFiles/dear-imgui-conan.dir/flags.make
+CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.o: /home/sszynk/projects/TheFinalRaytracer/src/app/main_window.cpp
+CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.o: CMakeFiles/dear-imgui-conan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.o -MF CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.o.d -o CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.o -c /home/sszynk/projects/TheFinalRaytracer/src/app/main_window.cpp
+
+CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/TheFinalRaytracer/src/app/main_window.cpp > CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.i
+
+CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/TheFinalRaytracer/src/app/main_window.cpp -o CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.s
+
+CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.o: CMakeFiles/dear-imgui-conan.dir/flags.make
+CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.o: /home/sszynk/projects/TheFinalRaytracer/src/app/console_window.cpp
+CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.o: CMakeFiles/dear-imgui-conan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.o -MF CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.o.d -o CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.o -c /home/sszynk/projects/TheFinalRaytracer/src/app/console_window.cpp
+
+CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/TheFinalRaytracer/src/app/console_window.cpp > CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.i
+
+CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/TheFinalRaytracer/src/app/console_window.cpp -o CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.s
+
+CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.o: CMakeFiles/dear-imgui-conan.dir/flags.make
+CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.o: /home/sszynk/projects/TheFinalRaytracer/src/app/entity_editor_window.cpp
+CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.o: CMakeFiles/dear-imgui-conan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.o -MF CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.o.d -o CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.o -c /home/sszynk/projects/TheFinalRaytracer/src/app/entity_editor_window.cpp
+
+CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/TheFinalRaytracer/src/app/entity_editor_window.cpp > CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.i
+
+CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/TheFinalRaytracer/src/app/entity_editor_window.cpp -o CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.s
+
+CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.o: CMakeFiles/dear-imgui-conan.dir/flags.make
+CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.o: /home/sszynk/projects/TheFinalRaytracer/src/app/scene_window.cpp
+CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.o: CMakeFiles/dear-imgui-conan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.o -MF CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.o.d -o CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.o -c /home/sszynk/projects/TheFinalRaytracer/src/app/scene_window.cpp
+
+CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/TheFinalRaytracer/src/app/scene_window.cpp > CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.i
+
+CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/TheFinalRaytracer/src/app/scene_window.cpp -o CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.s
+
+CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.o: CMakeFiles/dear-imgui-conan.dir/flags.make
+CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.o: /home/sszynk/projects/TheFinalRaytracer/src/app/settings_window.cpp
+CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.o: CMakeFiles/dear-imgui-conan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.o -MF CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.o.d -o CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.o -c /home/sszynk/projects/TheFinalRaytracer/src/app/settings_window.cpp
+
+CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/TheFinalRaytracer/src/app/settings_window.cpp > CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.i
+
+CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/TheFinalRaytracer/src/app/settings_window.cpp -o CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.s
 
 CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o: CMakeFiles/dear-imgui-conan.dir/flags.make
-CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o: /home/sszynk/projects/templates/src/renderer/image.cpp
+CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o: /home/sszynk/projects/TheFinalRaytracer/src/renderer/image.cpp
 CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o: CMakeFiles/dear-imgui-conan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/templates/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o -MF CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o.d -o CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o -c /home/sszynk/projects/templates/src/renderer/image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o -MF CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o.d -o CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o -c /home/sszynk/projects/TheFinalRaytracer/src/renderer/image.cpp
 
 CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/templates/src/renderer/image.cpp > CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/TheFinalRaytracer/src/renderer/image.cpp > CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.i
 
 CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/templates/src/renderer/image.cpp -o CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/TheFinalRaytracer/src/renderer/image.cpp -o CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.s
 
 CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o: CMakeFiles/dear-imgui-conan.dir/flags.make
-CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o: /home/sszynk/projects/templates/src/renderer/renderer.cpp
+CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o: /home/sszynk/projects/TheFinalRaytracer/src/renderer/renderer.cpp
 CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o: CMakeFiles/dear-imgui-conan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/templates/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o -MF CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o.d -o CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o -c /home/sszynk/projects/templates/src/renderer/renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o -MF CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o.d -o CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o -c /home/sszynk/projects/TheFinalRaytracer/src/renderer/renderer.cpp
 
 CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/templates/src/renderer/renderer.cpp > CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/TheFinalRaytracer/src/renderer/renderer.cpp > CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.i
 
 CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/templates/src/renderer/renderer.cpp -o CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/TheFinalRaytracer/src/renderer/renderer.cpp -o CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.s
 
 CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o: CMakeFiles/dear-imgui-conan.dir/flags.make
-CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o: /home/sszynk/projects/templates/src/utils/logger.cpp
+CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o: /home/sszynk/projects/TheFinalRaytracer/src/utils/logger.cpp
 CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o: CMakeFiles/dear-imgui-conan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/templates/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o -MF CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o.d -o CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o -c /home/sszynk/projects/templates/src/utils/logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o -MF CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o.d -o CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o -c /home/sszynk/projects/TheFinalRaytracer/src/utils/logger.cpp
 
 CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/templates/src/utils/logger.cpp > CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/TheFinalRaytracer/src/utils/logger.cpp > CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.i
 
 CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/templates/src/utils/logger.cpp -o CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/TheFinalRaytracer/src/utils/logger.cpp -o CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.s
+
+CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.o: CMakeFiles/dear-imgui-conan.dir/flags.make
+CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.o: /home/sszynk/projects/TheFinalRaytracer/src/utils/event_bus.cpp
+CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.o: CMakeFiles/dear-imgui-conan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.o -MF CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.o.d -o CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.o -c /home/sszynk/projects/TheFinalRaytracer/src/utils/event_bus.cpp
+
+CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sszynk/projects/TheFinalRaytracer/src/utils/event_bus.cpp > CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.i
+
+CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sszynk/projects/TheFinalRaytracer/src/utils/event_bus.cpp -o CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.s
 
 # Object files for target dear-imgui-conan
 dear__imgui__conan_OBJECTS = \
 "CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o" \
 "CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o" \
+"CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.o" \
+"CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.o" \
+"CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.o" \
+"CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.o" \
+"CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.o" \
 "CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o" \
 "CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o" \
-"CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o"
+"CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o" \
+"CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.o"
 
 # External object files for target dear-imgui-conan
 dear__imgui__conan_EXTERNAL_OBJECTS =
 
 dear-imgui-conan: CMakeFiles/dear-imgui-conan.dir/src/main.cpp.o
 dear-imgui-conan: CMakeFiles/dear-imgui-conan.dir/src/app/app.cpp.o
+dear-imgui-conan: CMakeFiles/dear-imgui-conan.dir/src/app/main_window.cpp.o
+dear-imgui-conan: CMakeFiles/dear-imgui-conan.dir/src/app/console_window.cpp.o
+dear-imgui-conan: CMakeFiles/dear-imgui-conan.dir/src/app/entity_editor_window.cpp.o
+dear-imgui-conan: CMakeFiles/dear-imgui-conan.dir/src/app/scene_window.cpp.o
+dear-imgui-conan: CMakeFiles/dear-imgui-conan.dir/src/app/settings_window.cpp.o
 dear-imgui-conan: CMakeFiles/dear-imgui-conan.dir/src/renderer/image.cpp.o
 dear-imgui-conan: CMakeFiles/dear-imgui-conan.dir/src/renderer/renderer.cpp.o
 dear-imgui-conan: CMakeFiles/dear-imgui-conan.dir/src/utils/logger.cpp.o
+dear-imgui-conan: CMakeFiles/dear-imgui-conan.dir/src/utils/event_bus.cpp.o
 dear-imgui-conan: CMakeFiles/dear-imgui-conan.dir/build.make
 dear-imgui-conan: CMakeFiles/dear-imgui-conan.dir/compiler_depend.ts
 dear-imgui-conan: bindings/libImguiBindings.a
@@ -174,8 +270,9 @@ dear-imgui-conan: /home/sszynk/.conan2/p/b/libgl450b8723c8df0/p/lib/libGLdispatc
 dear-imgui-conan: /home/sszynk/.conan2/p/b/glfwba1a4a54a73d0/p/lib/libglfw3.a
 dear-imgui-conan: /home/sszynk/.conan2/p/b/spdlofbf1dc8c61c73/p/lib/libspdlog.a
 dear-imgui-conan: /home/sszynk/.conan2/p/b/fmtc65fdfe548141/p/lib/libfmt.a
+dear-imgui-conan: /home/sszynk/.conan2/p/b/event6eea10dbc39e6/p/lib/libEventBus.a
 dear-imgui-conan: CMakeFiles/dear-imgui-conan.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sszynk/projects/templates/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable dear-imgui-conan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable dear-imgui-conan"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dear-imgui-conan.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -187,6 +284,6 @@ CMakeFiles/dear-imgui-conan.dir/clean:
 .PHONY : CMakeFiles/dear-imgui-conan.dir/clean
 
 CMakeFiles/dear-imgui-conan.dir/depend:
-	cd /home/sszynk/projects/templates/build/Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sszynk/projects/templates /home/sszynk/projects/templates /home/sszynk/projects/templates/build/Debug /home/sszynk/projects/templates/build/Debug /home/sszynk/projects/templates/build/Debug/CMakeFiles/dear-imgui-conan.dir/DependInfo.cmake "--color=$(COLOR)" dear-imgui-conan
+	cd /home/sszynk/projects/TheFinalRaytracer/build/Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sszynk/projects/TheFinalRaytracer /home/sszynk/projects/TheFinalRaytracer /home/sszynk/projects/TheFinalRaytracer/build/Debug /home/sszynk/projects/TheFinalRaytracer/build/Debug /home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles/dear-imgui-conan.dir/DependInfo.cmake "--color=$(COLOR)" dear-imgui-conan
 .PHONY : CMakeFiles/dear-imgui-conan.dir/depend
 
