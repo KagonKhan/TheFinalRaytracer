@@ -1,0 +1,2 @@
+/usr/bin/ar qc libImguiBindings.a CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_glfw.cpp.o CMakeFiles/ImguiBindings.dir/imgui/imgui_impl_opengl3.cpp.o
+/usr/bin/ranlib libImguiBindings.a

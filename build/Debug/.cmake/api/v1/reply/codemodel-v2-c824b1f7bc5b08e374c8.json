@@ -1,0 +1,2161 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CONAN_LIB::fmt_fmt_DEBUG::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CONAN_LIB__fmt_fmt_DEBUG-Debug-14fd29cff9d7574fcf37.json",
+					"name" : "CONAN_LIB::fmt_fmt_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CONAN_LIB::fmt_fmt_fmt_fmt_DEBUG::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CONAN_LIB__fmt_fmt_fmt_fmt_DEBUG-Debug-1011e2579676b2ade44e.json",
+					"name" : "CONAN_LIB::fmt_fmt_fmt_fmt_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CONAN_LIB::glew_GLEW_DEBUG::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-CONAN_LIB__glew_GLEW_DEBUG-Debug-e0d5cb6be8a9915191ff.json",
+					"name" : "CONAN_LIB::glew_GLEW_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CONAN_LIB::glew_GLEW_glew_s_GLEW_DEBUG::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-CONAN_LIB__glew_GLEW_glew_s_GLEW_DEBUG-Debug-764497ba99330782f67c.json",
+					"name" : "CONAN_LIB::glew_GLEW_glew_s_GLEW_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CONAN_LIB::glfw_glfw3_DEBUG::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-CONAN_LIB__glfw_glfw3_DEBUG-Debug-1ed778400f601632075f.json",
+					"name" : "CONAN_LIB::glfw_glfw3_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CONAN_LIB::imgui_imgui_DEBUG::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-CONAN_LIB__imgui_imgui_DEBUG-Debug-7c48c2a1c41d548f333a.json",
+					"name" : "CONAN_LIB::imgui_imgui_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CONAN_LIB::libglvnd_EGL_DEBUG::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-CONAN_LIB__libglvnd_EGL_DEBUG-Debug-08e1b964f088e9d6ff06.json",
+					"name" : "CONAN_LIB::libglvnd_EGL_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CONAN_LIB::libglvnd_GLESv1_CM_DEBUG::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-CONAN_LIB__libglvnd_GLESv1_CM_DEBUG-Debug-239c158fdbf347840530.json",
+					"name" : "CONAN_LIB::libglvnd_GLESv1_CM_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CONAN_LIB::libglvnd_GLESv2_DEBUG::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-CONAN_LIB__libglvnd_GLESv2_DEBUG-Debug-49deab0526f2186929a1.json",
+					"name" : "CONAN_LIB::libglvnd_GLESv2_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CONAN_LIB::libglvnd_GLX_DEBUG::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-CONAN_LIB__libglvnd_GLX_DEBUG-Debug-4f280ef93e4c667f4b1d.json",
+					"name" : "CONAN_LIB::libglvnd_GLX_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CONAN_LIB::libglvnd_GL_DEBUG::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-CONAN_LIB__libglvnd_GL_DEBUG-Debug-322bd1b953265d6eb5b7.json",
+					"name" : "CONAN_LIB::libglvnd_GL_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CONAN_LIB::libglvnd_GLdispatch_DEBUG::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-CONAN_LIB__libglvnd_GLdispatch_DEBUG-Debug-ca74254feec399f6b9dd.json",
+					"name" : "CONAN_LIB::libglvnd_GLdispatch_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CONAN_LIB::libglvnd_OpenGL_DEBUG::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-CONAN_LIB__libglvnd_OpenGL_DEBUG-Debug-6d0daddc822605d22402.json",
+					"name" : "CONAN_LIB::libglvnd_OpenGL_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CONAN_LIB::libglvnd_libglvnd_egl_EGL_DEBUG::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-CONAN_LIB__libglvnd_libglvnd_egl_EGL_DEBUG-Debug-087baae7707aa807f522.json",
+					"name" : "CONAN_LIB::libglvnd_libglvnd_egl_EGL_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CONAN_LIB::libglvnd_libglvnd_gl_GL_DEBUG::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-CONAN_LIB__libglvnd_libglvnd_gl_GL_DEBUG-Debug-485ff91726783cdc9cda.json",
+					"name" : "CONAN_LIB::libglvnd_libglvnd_gl_GL_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CONAN_LIB::libglvnd_libglvnd_gldispatch_GLdispatch_DEBUG::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-CONAN_LIB__libglvnd_libglvnd_gldispatch_GLdispatch_DEBUG-Debug-5b264af5b3070c2be11a.json",
+					"name" : "CONAN_LIB::libglvnd_libglvnd_gldispatch_GLdispatch_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CONAN_LIB::libglvnd_libglvnd_gles1_GLESv1_CM_DEBUG::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-CONAN_LIB__libglvnd_libglvnd_gles1_GLESv1_CM_DEBUG-Debug-2c5117ed2ec37ec17ba2.json",
+					"name" : "CONAN_LIB::libglvnd_libglvnd_gles1_GLESv1_CM_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CONAN_LIB::libglvnd_libglvnd_gles2_GLESv2_DEBUG::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-CONAN_LIB__libglvnd_libglvnd_gles2_GLESv2_DEBUG-Debug-7e268eb426fe8c313bfb.json",
+					"name" : "CONAN_LIB::libglvnd_libglvnd_gles2_GLESv2_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CONAN_LIB::libglvnd_libglvnd_glx_GLX_DEBUG::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-CONAN_LIB__libglvnd_libglvnd_glx_GLX_DEBUG-Debug-0868c88faac50fa034fb.json",
+					"name" : "CONAN_LIB::libglvnd_libglvnd_glx_GLX_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CONAN_LIB::libglvnd_libglvnd_opengl_OpenGL_DEBUG::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-CONAN_LIB__libglvnd_libglvnd_opengl_OpenGL_DEBUG-Debug-0e5d8b6d845f25c6ca56.json",
+					"name" : "CONAN_LIB::libglvnd_libglvnd_opengl_OpenGL_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CONAN_LIB::mesa-glu_GLU_DEBUG::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-CONAN_LIB__mesa-glu_GLU_DEBUG-Debug-dfcb86db9232f4bb57a9.json",
+					"name" : "CONAN_LIB::mesa-glu_GLU_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CONAN_LIB::spdlog_spdlog_DEBUG::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CONAN_LIB__spdlog_spdlog_DEBUG-Debug-7f0d44192db57c4f1aca.json",
+					"name" : "CONAN_LIB::spdlog_spdlog_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CONAN_LIB::spdlog_spdlog_spdlog_spdlog_DEBUG::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CONAN_LIB__spdlog_spdlog_spdlog_spdlog_DEBUG-Debug-419481cb4aa12cc220db.json",
+					"name" : "CONAN_LIB::spdlog_spdlog_spdlog_spdlog_DEBUG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "GLEW::GLEW::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-GLEW__GLEW-Debug-9cd679aaa75b46b04acb.json",
+					"name" : "GLEW::GLEW",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "GLEW::glew_s::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-GLEW__glew_s-Debug-429450b9090051f72144.json",
+					"name" : "GLEW::glew_s",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fmt::fmt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fmt__fmt-Debug-0e60aa05ac8c9ff62b12.json",
+					"name" : "fmt::fmt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fmt_DEPS_TARGET::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fmt_DEPS_TARGET-Debug-ad59abf4fe74be577b62.json",
+					"name" : "fmt_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fmt_fmt_fmt_DEPS_TARGET::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fmt_fmt_fmt_DEPS_TARGET-Debug-47926bc4e7b713c8df17.json",
+					"name" : "fmt_fmt_fmt_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "glew_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-glew_DEPS_TARGET-Debug-cf91b5851a7843fa2b0d.json",
+					"name" : "glew_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "glew_GLEW_glew_s_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-glew_GLEW_glew_s_DEPS_TARGET-Debug-3b77be007cbe4c05fd6f.json",
+					"name" : "glew_GLEW_glew_s_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "glfw::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-glfw-Debug-43ed29a12a78081ddc87.json",
+					"name" : "glfw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "glfw_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-glfw_DEPS_TARGET-Debug-5d1fb86e839ff3c4e0e3.json",
+					"name" : "glfw_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "imgui::imgui::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-imgui__imgui-Debug-a582cd0eba2abb2c90e6.json",
+					"name" : "imgui::imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "imgui_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-imgui_DEPS_TARGET-Debug-f0952769300d2060d855.json",
+					"name" : "imgui_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libglvnd::egl::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-libglvnd__egl-Debug-973f3f28eba478d158f1.json",
+					"name" : "libglvnd::egl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libglvnd::gl::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-libglvnd__gl-Debug-f78d8c876835a867e508.json",
+					"name" : "libglvnd::gl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libglvnd::gldispatch::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-libglvnd__gldispatch-Debug-9a75ecd41e29cdfb73ec.json",
+					"name" : "libglvnd::gldispatch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libglvnd::gles1::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-libglvnd__gles1-Debug-aaf0c18c69bb5547a13e.json",
+					"name" : "libglvnd::gles1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libglvnd::gles2::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-libglvnd__gles2-Debug-be019935d4683c6b9e6e.json",
+					"name" : "libglvnd::gles2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libglvnd::glx::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-libglvnd__glx-Debug-56b91c020057dac878b1.json",
+					"name" : "libglvnd::glx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libglvnd::libglvnd::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-libglvnd__libglvnd-Debug-7f8a358912c14a5edc7d.json",
+					"name" : "libglvnd::libglvnd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libglvnd::opengl::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-libglvnd__opengl-Debug-ac190ef1755b8fdfce8b.json",
+					"name" : "libglvnd::opengl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libglvnd_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-libglvnd_DEPS_TARGET-Debug-35dde205b2bec6c79fa6.json",
+					"name" : "libglvnd_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libglvnd_libglvnd_egl_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-libglvnd_libglvnd_egl_DEPS_TARGET-Debug-a5f2f0343c4575a980bd.json",
+					"name" : "libglvnd_libglvnd_egl_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libglvnd_libglvnd_gl_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-libglvnd_libglvnd_gl_DEPS_TARGET-Debug-a2141b050d7c9095567e.json",
+					"name" : "libglvnd_libglvnd_gl_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libglvnd_libglvnd_gldispatch_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-libglvnd_libglvnd_gldispatch_DEPS_TARGET-Debug-207425073b8378a63123.json",
+					"name" : "libglvnd_libglvnd_gldispatch_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libglvnd_libglvnd_gles1_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-libglvnd_libglvnd_gles1_DEPS_TARGET-Debug-3c1ee6927b1d0078aead.json",
+					"name" : "libglvnd_libglvnd_gles1_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libglvnd_libglvnd_gles2_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-libglvnd_libglvnd_gles2_DEPS_TARGET-Debug-edca06d74415b4a422ae.json",
+					"name" : "libglvnd_libglvnd_gles2_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libglvnd_libglvnd_glx_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-libglvnd_libglvnd_glx_DEPS_TARGET-Debug-0a247bea892c9cf4e2b7.json",
+					"name" : "libglvnd_libglvnd_glx_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libglvnd_libglvnd_opengl_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-libglvnd_libglvnd_opengl_DEPS_TARGET-Debug-07a5ebbc0199acc6f2d1.json",
+					"name" : "libglvnd_libglvnd_opengl_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mesa-glu::mesa-glu::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-mesa-glu__mesa-glu-Debug-969af9b870c7bf11196c.json",
+					"name" : "mesa-glu::mesa-glu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mesa-glu_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-mesa-glu_DEPS_TARGET-Debug-118ce740ab73504f685e.json",
+					"name" : "mesa-glu_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "opengl::opengl::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-opengl__opengl-Debug-09dd36e739950e8a7769.json",
+					"name" : "opengl::opengl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "opengl_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-opengl_DEPS_TARGET-Debug-81bc1426583eeab6680a.json",
+					"name" : "opengl_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spdlog::spdlog::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spdlog__spdlog-Debug-31e467825a0cb9545fe2.json",
+					"name" : "spdlog::spdlog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spdlog_DEPS_TARGET::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spdlog_DEPS_TARGET-Debug-2af59d2edbabf777b927.json",
+					"name" : "spdlog_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spdlog_spdlog_spdlog_DEPS_TARGET::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spdlog_spdlog_spdlog_DEPS_TARGET-Debug-9bcf86d92171c7363ad4.json",
+					"name" : "spdlog_spdlog_spdlog_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stb::stb::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stb__stb-Debug-2751563315859de9e3f3.json",
+					"name" : "stb::stb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stb_DEPS_TARGET::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stb_DEPS_TARGET-Debug-46ef4e392b82f90b82d0.json",
+					"name" : "stb_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-macros::xorg-macros::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-macros__xorg-macros-Debug-2db2b42fa77bcd711c2a.json",
+					"name" : "xorg-macros::xorg-macros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-macros_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-macros_DEPS_TARGET-Debug-31545d609fcc4c1aa0be.json",
+					"name" : "xorg-macros_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::applewmproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__applewmproto-Debug-bec60ecd47a22e9cf313.json",
+					"name" : "xorg-proto::applewmproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::bigreqsproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__bigreqsproto-Debug-456355be9fe462fe375b.json",
+					"name" : "xorg-proto::bigreqsproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::compositeproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__compositeproto-Debug-d742784320ba6da93a18.json",
+					"name" : "xorg-proto::compositeproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::damageproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__damageproto-Debug-2cadca8220e593c151c0.json",
+					"name" : "xorg-proto::damageproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::dmxproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__dmxproto-Debug-0453d646ea9730262d65.json",
+					"name" : "xorg-proto::dmxproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::dpmsproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__dpmsproto-Debug-8b545f316ef2de4eb57d.json",
+					"name" : "xorg-proto::dpmsproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::dri2proto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__dri2proto-Debug-270ffdc0bd9a3d859007.json",
+					"name" : "xorg-proto::dri2proto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::dri3proto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__dri3proto-Debug-81792b278777b154dbdc.json",
+					"name" : "xorg-proto::dri3proto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::fixesproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__fixesproto-Debug-708dff83f5491d081382.json",
+					"name" : "xorg-proto::fixesproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::fontsproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__fontsproto-Debug-0be7039bfc9430d08607.json",
+					"name" : "xorg-proto::fontsproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::glproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__glproto-Debug-822ab9e69481505dac44.json",
+					"name" : "xorg-proto::glproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::inputproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__inputproto-Debug-cd4ce3537d4a52dd3ad0.json",
+					"name" : "xorg-proto::inputproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::kbproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__kbproto-Debug-806f47dfa957edb8df4f.json",
+					"name" : "xorg-proto::kbproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::presentproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__presentproto-Debug-dacceb620a7d0d8e22ee.json",
+					"name" : "xorg-proto::presentproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::randrproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__randrproto-Debug-d5bf8eaf5b3813956be9.json",
+					"name" : "xorg-proto::randrproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::recordproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__recordproto-Debug-52af3c76c2a8f65d1f27.json",
+					"name" : "xorg-proto::recordproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::renderproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__renderproto-Debug-1a16c3142ace5885deaa.json",
+					"name" : "xorg-proto::renderproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::resourceproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__resourceproto-Debug-993cc7241051c2db9cb2.json",
+					"name" : "xorg-proto::resourceproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::scrnsaverproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__scrnsaverproto-Debug-5c0727fba0b5cbf1556c.json",
+					"name" : "xorg-proto::scrnsaverproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::videoproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__videoproto-Debug-ed27cd0840a9519ac323.json",
+					"name" : "xorg-proto::videoproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::xcmiscproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__xcmiscproto-Debug-96f59b7e202e73189d1c.json",
+					"name" : "xorg-proto::xcmiscproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::xextproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__xextproto-Debug-81130b7dc1a5be2abe5e.json",
+					"name" : "xorg-proto::xextproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::xf86bigfontproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__xf86bigfontproto-Debug-8e21b5c46a2a2c9e1ed6.json",
+					"name" : "xorg-proto::xf86bigfontproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::xf86dgaproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__xf86dgaproto-Debug-21416aaaa9eabe927890.json",
+					"name" : "xorg-proto::xf86dgaproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::xf86driproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__xf86driproto-Debug-3600ed70938e487ca0fb.json",
+					"name" : "xorg-proto::xf86driproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::xf86vidmodeproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__xf86vidmodeproto-Debug-1b08416b7e52ac972b03.json",
+					"name" : "xorg-proto::xf86vidmodeproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::xineramaproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__xineramaproto-Debug-79be53e62a390ecf0d8b.json",
+					"name" : "xorg-proto::xineramaproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::xorg-proto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__xorg-proto-Debug-1da7102f657cc91b5dd8.json",
+					"name" : "xorg-proto::xorg-proto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::xproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__xproto-Debug-5aa0b79c4fec31fb4bc3.json",
+					"name" : "xorg-proto::xproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto::xwaylandproto::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto__xwaylandproto-Debug-52e96eb3c9f3c73114b0.json",
+					"name" : "xorg-proto::xwaylandproto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_DEPS_TARGET-Debug-40fad412e05744f8beea.json",
+					"name" : "xorg-proto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_applewmproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_applewmproto_DEPS_TARGET-Debug-6dcdfc6efc2dc3dddb18.json",
+					"name" : "xorg-proto_xorg-proto_applewmproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_bigreqsproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_bigreqsproto_DEPS_TARGET-Debug-68aa556fe2605a04a2df.json",
+					"name" : "xorg-proto_xorg-proto_bigreqsproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_compositeproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_compositeproto_DEPS_TARGET-Debug-08cbdde55d6909273f65.json",
+					"name" : "xorg-proto_xorg-proto_compositeproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_damageproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_damageproto_DEPS_TARGET-Debug-ea2bb3703d1e766fd641.json",
+					"name" : "xorg-proto_xorg-proto_damageproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_dmxproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_dmxproto_DEPS_TARGET-Debug-ce10fa2b55027a758927.json",
+					"name" : "xorg-proto_xorg-proto_dmxproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_dpmsproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_dpmsproto_DEPS_TARGET-Debug-44d013c88ba1531d6e83.json",
+					"name" : "xorg-proto_xorg-proto_dpmsproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_dri2proto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_dri2proto_DEPS_TARGET-Debug-5f3da477e5bea8de502c.json",
+					"name" : "xorg-proto_xorg-proto_dri2proto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_dri3proto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_dri3proto_DEPS_TARGET-Debug-820a0aa9e0799e2639d9.json",
+					"name" : "xorg-proto_xorg-proto_dri3proto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_fixesproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_fixesproto_DEPS_TARGET-Debug-b5c78e492b48a5ee10a7.json",
+					"name" : "xorg-proto_xorg-proto_fixesproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_fontsproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_fontsproto_DEPS_TARGET-Debug-601cd308817e7b8809d1.json",
+					"name" : "xorg-proto_xorg-proto_fontsproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_glproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_glproto_DEPS_TARGET-Debug-5d39a106732451ce9a75.json",
+					"name" : "xorg-proto_xorg-proto_glproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_inputproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_inputproto_DEPS_TARGET-Debug-e59737cf434152a2563e.json",
+					"name" : "xorg-proto_xorg-proto_inputproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_kbproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_kbproto_DEPS_TARGET-Debug-4d67a1f77dbcd54a1239.json",
+					"name" : "xorg-proto_xorg-proto_kbproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_presentproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_presentproto_DEPS_TARGET-Debug-2061823e70dae31dfe02.json",
+					"name" : "xorg-proto_xorg-proto_presentproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_randrproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_randrproto_DEPS_TARGET-Debug-f495e7f941b8f44cef38.json",
+					"name" : "xorg-proto_xorg-proto_randrproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_recordproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_recordproto_DEPS_TARGET-Debug-5e52efd320a5cf43959c.json",
+					"name" : "xorg-proto_xorg-proto_recordproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_renderproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_renderproto_DEPS_TARGET-Debug-52177337f1f1a827d8ee.json",
+					"name" : "xorg-proto_xorg-proto_renderproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_resourceproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_resourceproto_DEPS_TARGET-Debug-9c15e44009bc2a443fc9.json",
+					"name" : "xorg-proto_xorg-proto_resourceproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_scrnsaverproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_scrnsaverproto_DEPS_TARGET-Debug-675fc6b5cfbcdaaab38f.json",
+					"name" : "xorg-proto_xorg-proto_scrnsaverproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_videoproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_videoproto_DEPS_TARGET-Debug-5808ed568c1dcc294717.json",
+					"name" : "xorg-proto_xorg-proto_videoproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_xcmiscproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_xcmiscproto_DEPS_TARGET-Debug-5317ec1ee7fe7b425229.json",
+					"name" : "xorg-proto_xorg-proto_xcmiscproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_xextproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_xextproto_DEPS_TARGET-Debug-1f1e7ad8392c4932b089.json",
+					"name" : "xorg-proto_xorg-proto_xextproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_xf86bigfontproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_xf86bigfontproto_DEPS_TARGET-Debug-aeb2c55b3ec46e0bc9f8.json",
+					"name" : "xorg-proto_xorg-proto_xf86bigfontproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_xf86dgaproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_xf86dgaproto_DEPS_TARGET-Debug-c3416df5d694a3d2d756.json",
+					"name" : "xorg-proto_xorg-proto_xf86dgaproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_xf86driproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_xf86driproto_DEPS_TARGET-Debug-173995e182ae2713fc98.json",
+					"name" : "xorg-proto_xorg-proto_xf86driproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_xf86vidmodeproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_xf86vidmodeproto_DEPS_TARGET-Debug-beba8e9d2942468a0837.json",
+					"name" : "xorg-proto_xorg-proto_xf86vidmodeproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_xineramaproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_xineramaproto_DEPS_TARGET-Debug-5ef2212c918b58e5aabc.json",
+					"name" : "xorg-proto_xorg-proto_xineramaproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_xproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_xproto_DEPS_TARGET-Debug-ac2b8188fcb36ae0ee6f.json",
+					"name" : "xorg-proto_xorg-proto_xproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg-proto_xorg-proto_xwaylandproto_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg-proto_xorg-proto_xwaylandproto_DEPS_TARGET-Debug-7fd193df832f6e692eee.json",
+					"name" : "xorg-proto_xorg-proto_xwaylandproto_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::fontenc::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__fontenc-Debug-c37a787f661da8c3ced0.json",
+					"name" : "xorg::fontenc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::ice::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__ice-Debug-3bad846285d3d91622ad.json",
+					"name" : "xorg::ice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::sm::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__sm-Debug-38cd6084cc54aa3267d2.json",
+					"name" : "xorg::sm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::uuid::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__uuid-Debug-831f84ab6d462be86369.json",
+					"name" : "xorg::uuid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::x11::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__x11-Debug-d8fb4612deb876de1786.json",
+					"name" : "xorg::x11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::x11-xcb::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__x11-xcb-Debug-bce4b10ec67b91a47414.json",
+					"name" : "xorg::x11-xcb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xau::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xau-Debug-3b925049e1a301501c14.json",
+					"name" : "xorg::xau",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xaw7::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xaw7-Debug-b3c8b150e3d0dcf3a706.json",
+					"name" : "xorg::xaw7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-Debug-e96aafd6335d24eff327.json",
+					"name" : "xorg::xcb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-atom::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-atom-Debug-57953ea89ab0fc1a297c.json",
+					"name" : "xorg::xcb-atom",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-aux::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-aux-Debug-325ad29e601a8d56c1e5.json",
+					"name" : "xorg::xcb-aux",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-composite::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-composite-Debug-aa1323e7e2f6b9aadf40.json",
+					"name" : "xorg::xcb-composite",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-cursor::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-cursor-Debug-7d7e7bce4342470e7e86.json",
+					"name" : "xorg::xcb-cursor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-dri2::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-dri2-Debug-90dc68a83f6f39fa2f58.json",
+					"name" : "xorg::xcb-dri2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-dri3::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-dri3-Debug-a3e9b9dbf695c610aa26.json",
+					"name" : "xorg::xcb-dri3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-event::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-event-Debug-0ecbb15877c04e80bffb.json",
+					"name" : "xorg::xcb-event",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-ewmh::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-ewmh-Debug-492920e9400b28ba996c.json",
+					"name" : "xorg::xcb-ewmh",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-glx::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-glx-Debug-1f77485d7b10dbf24434.json",
+					"name" : "xorg::xcb-glx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-icccm::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-icccm-Debug-c36877173910a192a2ea.json",
+					"name" : "xorg::xcb-icccm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-image::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-image-Debug-cdf7739517958ec86f1e.json",
+					"name" : "xorg::xcb-image",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-keysyms::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-keysyms-Debug-fc48464c83c5be5bb33f.json",
+					"name" : "xorg::xcb-keysyms",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-present::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-present-Debug-486f29163ec23640f5d9.json",
+					"name" : "xorg::xcb-present",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-randr::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-randr-Debug-9f6815672b0e1ec8c245.json",
+					"name" : "xorg::xcb-randr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-render::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-render-Debug-7fed87c52991e8c89315.json",
+					"name" : "xorg::xcb-render",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-renderutil::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-renderutil-Debug-3073b526d653828ac93a.json",
+					"name" : "xorg::xcb-renderutil",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-res::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-res-Debug-321cde1a166e29a8649b.json",
+					"name" : "xorg::xcb-res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-shape::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-shape-Debug-746ef82153a6f3b6a70e.json",
+					"name" : "xorg::xcb-shape",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-shm::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-shm-Debug-a6e1ac2483d2e948d381.json",
+					"name" : "xorg::xcb-shm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-sync::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-sync-Debug-25176aa36f8438678362.json",
+					"name" : "xorg::xcb-sync",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-util::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-util-Debug-33b9c1bcf016e6bdef21.json",
+					"name" : "xorg::xcb-util",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-xfixes::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-xfixes-Debug-a073f470ef29d5f04af6.json",
+					"name" : "xorg::xcb-xfixes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-xinerama::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-xinerama-Debug-1e414c7126bf9fb576ee.json",
+					"name" : "xorg::xcb-xinerama",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcb-xkb::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcb-xkb-Debug-ff2438d93885e787b8e7.json",
+					"name" : "xorg::xcb-xkb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcomposite::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcomposite-Debug-bc4d81fe209e36042e23.json",
+					"name" : "xorg::xcomposite",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xcursor::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xcursor-Debug-fe7516c1b79d60d6ed0f.json",
+					"name" : "xorg::xcursor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xdamage::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xdamage-Debug-0922f34fb710ae6748da.json",
+					"name" : "xorg::xdamage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xdmcp::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xdmcp-Debug-d6e34554e932ad3df5bc.json",
+					"name" : "xorg::xdmcp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xext::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xext-Debug-cac50f025f21b4b54b8c.json",
+					"name" : "xorg::xext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xfixes::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xfixes-Debug-afc203f6bd9c2c04b78f.json",
+					"name" : "xorg::xfixes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xi::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xi-Debug-4e3cb4f386c2584dd66b.json",
+					"name" : "xorg::xi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xinerama::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xinerama-Debug-115f0e21c06060240264.json",
+					"name" : "xorg::xinerama",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xkbfile::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xkbfile-Debug-51ed860be2e691225202.json",
+					"name" : "xorg::xkbfile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xmu::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xmu-Debug-bbf2b13703bba06862bd.json",
+					"name" : "xorg::xmu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xmuu::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xmuu-Debug-82dd5bf8c8c6f6c37e76.json",
+					"name" : "xorg::xmuu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xorg::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xorg-Debug-6a4d2ea99d29da8efcf5.json",
+					"name" : "xorg::xorg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xpm::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xpm-Debug-797230a982c7248e8a16.json",
+					"name" : "xorg::xpm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xrandr::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xrandr-Debug-f590af2e561c9a04c470.json",
+					"name" : "xorg::xrandr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xrender::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xrender-Debug-63b0b49498f59d3a91b8.json",
+					"name" : "xorg::xrender",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xres::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xres-Debug-b6c9e1a8da0ed8633b30.json",
+					"name" : "xorg::xres",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xscrnsaver::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xscrnsaver-Debug-7a67a33abf3ba0c46e05.json",
+					"name" : "xorg::xscrnsaver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xt::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xt-Debug-52f37acbd4dc37ed39e8.json",
+					"name" : "xorg::xt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xtst::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xtst-Debug-2a593f7e4a4be344cf9c.json",
+					"name" : "xorg::xtst",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xv::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xv-Debug-d955c1149d61d284d258.json",
+					"name" : "xorg::xv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg::xxf86vm::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg__xxf86vm-Debug-9a33a4273d3d38e688fb.json",
+					"name" : "xorg::xxf86vm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_DEPS_TARGET-Debug-9fbace672fdeef41574c.json",
+					"name" : "xorg_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_fontenc_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_fontenc_DEPS_TARGET-Debug-fc8fe21933ac0413b25a.json",
+					"name" : "xorg_xorg_fontenc_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_ice_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_ice_DEPS_TARGET-Debug-6d6be90c4288489918dd.json",
+					"name" : "xorg_xorg_ice_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_sm_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_sm_DEPS_TARGET-Debug-82699cffa239c9eb3492.json",
+					"name" : "xorg_xorg_sm_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_uuid_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_uuid_DEPS_TARGET-Debug-78843e76b1ca46d948d0.json",
+					"name" : "xorg_xorg_uuid_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_x11-xcb_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_x11-xcb_DEPS_TARGET-Debug-baaba03f4367e9d20d3f.json",
+					"name" : "xorg_xorg_x11-xcb_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_x11_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_x11_DEPS_TARGET-Debug-88382a953014d232870c.json",
+					"name" : "xorg_xorg_x11_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xau_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xau_DEPS_TARGET-Debug-e82fb645cf5a5678e9c7.json",
+					"name" : "xorg_xorg_xau_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xaw7_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xaw7_DEPS_TARGET-Debug-00eade42bb07a7f5a9de.json",
+					"name" : "xorg_xorg_xaw7_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-atom_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-atom_DEPS_TARGET-Debug-abd2917a07d7e07ca0d5.json",
+					"name" : "xorg_xorg_xcb-atom_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-aux_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-aux_DEPS_TARGET-Debug-101315f5618d0b6d75f4.json",
+					"name" : "xorg_xorg_xcb-aux_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-composite_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-composite_DEPS_TARGET-Debug-240a729aaabcb1b202b1.json",
+					"name" : "xorg_xorg_xcb-composite_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-cursor_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-cursor_DEPS_TARGET-Debug-1b20c2b17aed2846e1fe.json",
+					"name" : "xorg_xorg_xcb-cursor_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-dri2_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-dri2_DEPS_TARGET-Debug-b807dbca2821e46d7b05.json",
+					"name" : "xorg_xorg_xcb-dri2_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-dri3_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-dri3_DEPS_TARGET-Debug-079bd48997726e3682fd.json",
+					"name" : "xorg_xorg_xcb-dri3_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-event_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-event_DEPS_TARGET-Debug-27e15e2ef6d6c3189eb9.json",
+					"name" : "xorg_xorg_xcb-event_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-ewmh_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-ewmh_DEPS_TARGET-Debug-893405218be9ef81a39f.json",
+					"name" : "xorg_xorg_xcb-ewmh_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-glx_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-glx_DEPS_TARGET-Debug-979b215a1e38abdf16f0.json",
+					"name" : "xorg_xorg_xcb-glx_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-icccm_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-icccm_DEPS_TARGET-Debug-88eee6b72c673d8ccb7c.json",
+					"name" : "xorg_xorg_xcb-icccm_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-image_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-image_DEPS_TARGET-Debug-463b666d5d574e92b7e3.json",
+					"name" : "xorg_xorg_xcb-image_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-keysyms_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-keysyms_DEPS_TARGET-Debug-27c641856c21379feba6.json",
+					"name" : "xorg_xorg_xcb-keysyms_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-present_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-present_DEPS_TARGET-Debug-fd285238f02fa983f5a9.json",
+					"name" : "xorg_xorg_xcb-present_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-randr_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-randr_DEPS_TARGET-Debug-86e45d6fc52043e9ab1e.json",
+					"name" : "xorg_xorg_xcb-randr_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-render_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-render_DEPS_TARGET-Debug-e33bee11fd9ffca8a2da.json",
+					"name" : "xorg_xorg_xcb-render_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-renderutil_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-renderutil_DEPS_TARGET-Debug-0c1a47c647917b74be1a.json",
+					"name" : "xorg_xorg_xcb-renderutil_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-res_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-res_DEPS_TARGET-Debug-8972fb17aa0973403a3e.json",
+					"name" : "xorg_xorg_xcb-res_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-shape_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-shape_DEPS_TARGET-Debug-b311fba0ce62e19e4513.json",
+					"name" : "xorg_xorg_xcb-shape_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-shm_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-shm_DEPS_TARGET-Debug-35d29850379cae62ab89.json",
+					"name" : "xorg_xorg_xcb-shm_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-sync_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-sync_DEPS_TARGET-Debug-b6512c5782abfae11088.json",
+					"name" : "xorg_xorg_xcb-sync_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-util_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-util_DEPS_TARGET-Debug-ffa3701be7e43319c85d.json",
+					"name" : "xorg_xorg_xcb-util_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-xfixes_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-xfixes_DEPS_TARGET-Debug-0572a465a52f5d99e0fe.json",
+					"name" : "xorg_xorg_xcb-xfixes_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-xinerama_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-xinerama_DEPS_TARGET-Debug-78d8082c1cca4bb595b7.json",
+					"name" : "xorg_xorg_xcb-xinerama_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb-xkb_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb-xkb_DEPS_TARGET-Debug-af0b045757674244bdb9.json",
+					"name" : "xorg_xorg_xcb-xkb_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcb_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcb_DEPS_TARGET-Debug-9174344bd6adc4a1c0ed.json",
+					"name" : "xorg_xorg_xcb_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcomposite_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcomposite_DEPS_TARGET-Debug-d53537d08be3c70dbcc1.json",
+					"name" : "xorg_xorg_xcomposite_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xcursor_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xcursor_DEPS_TARGET-Debug-9342a6ec9fc32977c3be.json",
+					"name" : "xorg_xorg_xcursor_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xdamage_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xdamage_DEPS_TARGET-Debug-1b3de8673dcbeb30b5c8.json",
+					"name" : "xorg_xorg_xdamage_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xdmcp_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xdmcp_DEPS_TARGET-Debug-22f49cf9dfb6bb5accfe.json",
+					"name" : "xorg_xorg_xdmcp_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xext_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xext_DEPS_TARGET-Debug-e20eaacd187f390a152e.json",
+					"name" : "xorg_xorg_xext_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xfixes_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xfixes_DEPS_TARGET-Debug-0bcb196e2b27a20c91bd.json",
+					"name" : "xorg_xorg_xfixes_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xi_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xi_DEPS_TARGET-Debug-9b35e7f663fc350ca9ea.json",
+					"name" : "xorg_xorg_xi_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xinerama_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xinerama_DEPS_TARGET-Debug-eeea68220ff1ee3e3205.json",
+					"name" : "xorg_xorg_xinerama_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xkbfile_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xkbfile_DEPS_TARGET-Debug-f88f85c287d718c31875.json",
+					"name" : "xorg_xorg_xkbfile_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xmu_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xmu_DEPS_TARGET-Debug-596214ebd1c1cf3ca030.json",
+					"name" : "xorg_xorg_xmu_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xmuu_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xmuu_DEPS_TARGET-Debug-dba4c5c80942383bcb1e.json",
+					"name" : "xorg_xorg_xmuu_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xpm_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xpm_DEPS_TARGET-Debug-6666b97ae490d399486b.json",
+					"name" : "xorg_xorg_xpm_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xrandr_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xrandr_DEPS_TARGET-Debug-2d3d13723a3c12bbb47b.json",
+					"name" : "xorg_xorg_xrandr_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xrender_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xrender_DEPS_TARGET-Debug-4304d30d4ccab4861615.json",
+					"name" : "xorg_xorg_xrender_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xres_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xres_DEPS_TARGET-Debug-78330a113c1fec7f0ed7.json",
+					"name" : "xorg_xorg_xres_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xscrnsaver_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xscrnsaver_DEPS_TARGET-Debug-956892388300c1755f22.json",
+					"name" : "xorg_xorg_xscrnsaver_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xt_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xt_DEPS_TARGET-Debug-725e79b2f9f01802b497.json",
+					"name" : "xorg_xorg_xt_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xtst_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xtst_DEPS_TARGET-Debug-2a58860186a1e67ba907.json",
+					"name" : "xorg_xorg_xtst_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xv_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xv_DEPS_TARGET-Debug-9795383be840602a9a7f.json",
+					"name" : "xorg_xorg_xv_DEPS_TARGET",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xorg_xorg_xxf86vm_DEPS_TARGET::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-xorg_xorg_xxf86vm_DEPS_TARGET-Debug-2ff255d35b2341abce76.json",
+					"name" : "xorg_xorg_xxf86vm_DEPS_TARGET",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						21,
+						22,
+						25,
+						26,
+						27,
+						54,
+						55,
+						56,
+						57,
+						58
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						23,
+						24,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147,
+						148,
+						149,
+						150,
+						151,
+						152,
+						153,
+						154,
+						155,
+						156,
+						157,
+						158,
+						159,
+						160,
+						161,
+						162,
+						163,
+						164,
+						165,
+						166,
+						167,
+						168,
+						169,
+						170,
+						171,
+						172,
+						173,
+						174,
+						175,
+						176,
+						177,
+						178,
+						179,
+						180,
+						181,
+						182,
+						183,
+						184,
+						185,
+						186,
+						187,
+						188,
+						189,
+						190,
+						191,
+						192,
+						193,
+						194,
+						195,
+						196,
+						197,
+						198,
+						199,
+						200,
+						201,
+						202,
+						203,
+						204,
+						205,
+						206,
+						207,
+						208,
+						209,
+						210,
+						211,
+						212,
+						213,
+						214,
+						215,
+						216,
+						217,
+						218,
+						219,
+						220,
+						221,
+						222,
+						223,
+						224,
+						225,
+						226,
+						227,
+						228
+					],
+					"build" : "bindings",
+					"jsonFile" : "directory-bindings-Debug-4c57b5e8b9f2a91521c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "bindings",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147,
+						148,
+						149,
+						150,
+						151,
+						152,
+						153,
+						154,
+						155,
+						156,
+						157,
+						158,
+						159,
+						160,
+						161,
+						162,
+						163,
+						164,
+						165,
+						166,
+						167,
+						168,
+						169,
+						170,
+						171,
+						172,
+						173,
+						174,
+						175,
+						176,
+						177,
+						178,
+						179,
+						180,
+						181,
+						182,
+						183,
+						184,
+						185,
+						186,
+						187,
+						188,
+						189,
+						190,
+						191,
+						192,
+						193,
+						194,
+						195,
+						196,
+						197,
+						198,
+						199,
+						200,
+						201,
+						202,
+						203,
+						204,
+						205,
+						206,
+						207,
+						208,
+						209,
+						210,
+						211,
+						212,
+						213,
+						214,
+						215,
+						216,
+						217,
+						218,
+						219,
+						220,
+						221,
+						222,
+						223,
+						224,
+						225,
+						226,
+						227,
+						228
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ImguiProject",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ImguiBindings::@1a45702be1b1dbd02bc1",
+					"jsonFile" : "target-ImguiBindings-Debug-bc6d6535eb57db1cf3f9.json",
+					"name" : "ImguiBindings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dear-imgui-conan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dear-imgui-conan-Debug-6a7050b1d965668a43e5.json",
+					"name" : "dear-imgui-conan",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sszynk/projects/templates/build/Debug",
+		"source" : "/home/sszynk/projects/templates"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

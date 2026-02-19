@@ -1,0 +1,500 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/4.2.3/CMakeSystem.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/conan_toolchain.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/stb-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/stb-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/stbTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/stb-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/stb-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/spdlog-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/spdlog-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/spdlogTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/spdlog-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/spdlog-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/fmt-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/fmt-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/fmtTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/fmt-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/fmt-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : "bindings/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/imgui-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/imgui-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/imguiTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/imgui-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/imgui-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/glfw3-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/glfw3-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/glfw3Targets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/glfw3-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/glfw3-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/opengl_system-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/opengl_system-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/opengl_systemTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/opengl_system-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/opengl_system-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/xorg-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/xorg-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/xorgTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/xorg-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/xorg-macros-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/xorg-proto-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/xorg-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/glew-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/glew-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/glewTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/glew-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/glew-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/mesa-glu-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/mesa-glu-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/mesa-gluTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/mesa-glu-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/mesa-glu-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/libglvnd-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/libglvnd-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/libglvndTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/libglvnd-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/libglvnd-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/xorg-proto-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/xorg-proto-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/xorg-protoTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/xorg-proto-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/xorg-proto-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/xorg-macros-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/xorg-macros-config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/cmakedeps_macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/xorg-macrosTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/xorg-macros-debug-x86_64-data.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/generators/xorg-macros-Target-debug.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/sszynk/projects/templates/build/Debug",
+		"source" : "/home/sszynk/projects/templates"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

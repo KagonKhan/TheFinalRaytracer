@@ -1,0 +1,853 @@
+{
+	"abstract" : true,
+	"backtrace" : 9,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"find_package",
+			"__find_dependency_common",
+			"find_dependency",
+			"set_property"
+		],
+		"files" : 
+		[
+			"build/Debug/generators/xorgTargets.cmake",
+			"build/Debug/generators/xorg-config.cmake",
+			"/usr/local/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake",
+			"build/Debug/generators/glfw3-config.cmake",
+			"bindings/CMakeLists.txt",
+			"build/Debug/generators/xorg-Target-debug.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 24,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 125,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 93,
+				"parent" : 4
+			},
+			{
+				"file" : 1,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 6
+			},
+			{
+				"file" : 0,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 8
+			},
+			{
+				"file" : 5,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3220,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3221,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3222,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3223,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3224,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3225,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3226,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3227,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3228,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3229,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3230,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3231,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3232,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3233,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3234,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3235,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3236,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3237,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3238,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3239,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3240,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3241,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3242,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3243,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3244,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3245,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3246,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3247,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3248,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3249,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3250,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3251,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3252,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3253,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3254,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3255,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3256,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3257,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3258,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3259,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3260,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3261,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3262,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3263,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3264,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3265,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3266,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3267,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3268,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3269,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3270,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3271,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 3272,
+				"parent" : 11
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "xorg::xorg::@1a45702be1b1dbd02bc1",
+	"imported" : true,
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 12,
+			"id" : "xorg::sm::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "xorg::uuid::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "xorg::xcb-res::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "xorg::xcb-ewmh::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "xorg::xcb-composite::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "xorg::xcb-present::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "xorg::xcb-glx::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "xorg::xcb-dri2::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "xorg::xcb-cursor::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "xorg::xcb-dri3::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "xorg::xcb-util::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "xorg::xcb-event::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "xorg::xcb-aux::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "xorg::xcb-atom::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "xorg::xcb::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "xorg::xcb-xinerama::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "xorg::xcb-xfixes::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "xorg::xcb-sync::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "xorg::xcb-shm::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "xorg::xcb-shape::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "xorg::xcb-renderutil::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "xorg::xcb-render::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 34,
+			"id" : "xorg::xcb-randr::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "xorg::xcb-keysyms::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 36,
+			"id" : "xorg::xcb-image::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 37,
+			"id" : "xorg::xcb-icccm::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 38,
+			"id" : "xorg::xcb-xkb::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 39,
+			"id" : "xorg::xxf86vm::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "xorg::xv::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 41,
+			"id" : "xorg::xtst::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 42,
+			"id" : "xorg::xt::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 43,
+			"id" : "xorg::xscrnsaver::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 44,
+			"id" : "xorg::xres::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 45,
+			"id" : "xorg::xrender::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 46,
+			"id" : "xorg::xrandr::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 47,
+			"id" : "xorg::xpm::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 48,
+			"id" : "xorg::xmuu::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 49,
+			"id" : "xorg::xmu::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 50,
+			"id" : "xorg::xkbfile::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 51,
+			"id" : "xorg::xinerama::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 52,
+			"id" : "xorg::xi::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 53,
+			"id" : "xorg::xfixes::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 54,
+			"id" : "xorg::xext::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 55,
+			"id" : "xorg::xdmcp::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 56,
+			"id" : "xorg::xdamage::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 57,
+			"id" : "xorg::xcursor::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 58,
+			"id" : "xorg::xcomposite::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 59,
+			"id" : "xorg::xaw7::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 60,
+			"id" : "xorg::xau::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 61,
+			"id" : "xorg::ice::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 62,
+			"id" : "xorg::fontenc::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 63,
+			"id" : "xorg::x11-xcb::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 64,
+			"id" : "xorg::x11::@1a45702be1b1dbd02bc1"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 12,
+			"id" : "xorg::sm::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "xorg::uuid::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "xorg::xcb-res::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "xorg::xcb-ewmh::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "xorg::xcb-composite::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "xorg::xcb-present::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "xorg::xcb-glx::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "xorg::xcb-dri2::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "xorg::xcb-cursor::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "xorg::xcb-dri3::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "xorg::xcb-util::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "xorg::xcb-event::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "xorg::xcb-aux::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "xorg::xcb-atom::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "xorg::xcb::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "xorg::xcb-xinerama::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "xorg::xcb-xfixes::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "xorg::xcb-sync::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "xorg::xcb-shm::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "xorg::xcb-shape::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "xorg::xcb-renderutil::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "xorg::xcb-render::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 34,
+			"id" : "xorg::xcb-randr::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "xorg::xcb-keysyms::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 36,
+			"id" : "xorg::xcb-image::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 37,
+			"id" : "xorg::xcb-icccm::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 38,
+			"id" : "xorg::xcb-xkb::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 39,
+			"id" : "xorg::xxf86vm::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "xorg::xv::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 41,
+			"id" : "xorg::xtst::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 42,
+			"id" : "xorg::xt::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 43,
+			"id" : "xorg::xscrnsaver::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 44,
+			"id" : "xorg::xres::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 45,
+			"id" : "xorg::xrender::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 46,
+			"id" : "xorg::xrandr::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 47,
+			"id" : "xorg::xpm::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 48,
+			"id" : "xorg::xmuu::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 49,
+			"id" : "xorg::xmu::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 50,
+			"id" : "xorg::xkbfile::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 51,
+			"id" : "xorg::xinerama::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 52,
+			"id" : "xorg::xi::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 53,
+			"id" : "xorg::xfixes::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 54,
+			"id" : "xorg::xext::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 55,
+			"id" : "xorg::xdmcp::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 56,
+			"id" : "xorg::xdamage::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 57,
+			"id" : "xorg::xcursor::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 58,
+			"id" : "xorg::xcomposite::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 59,
+			"id" : "xorg::xaw7::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 60,
+			"id" : "xorg::xau::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 61,
+			"id" : "xorg::ice::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 62,
+			"id" : "xorg::fontenc::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 63,
+			"id" : "xorg::x11-xcb::@1a45702be1b1dbd02bc1"
+		},
+		{
+			"backtrace" : 64,
+			"id" : "xorg::x11::@1a45702be1b1dbd02bc1"
+		}
+	],
+	"local" : true,
+	"name" : "xorg::xorg",
+	"paths" : 
+	{
+		"build" : "bindings",
+		"source" : "bindings"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}
