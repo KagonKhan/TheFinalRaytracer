@@ -15,6 +15,7 @@ add_subdirectory(bindings)
 find_package(stb REQUIRED)
 find_package(spdlog REQUIRED)
 find_package(EventBus REQUIRED)
+find_package(glm REQUIRED)
 
 # =======================    PROJECT    ==========================
 
@@ -45,6 +46,7 @@ target_link_libraries(dear-imgui-conan PUBLIC
     stb::stb
     spdlog::spdlog
     Dexode::EventBus
+    glm::glm
 )
 
 target_compile_definitions(dear-imgui-conan PUBLIC RESOURCE_DIR=${PROJECT_SOURCE_DIR}/resources)

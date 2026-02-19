@@ -68,5 +68,44 @@ private:
     inline static std::atomic<int64_t> instances_ {0};
 };
 
+/// @brief Wraps a POD-like type T with full lifecycle tracking.
+///        T itself is left completely untouched.
+template <typename T>
+requires std::is_trivially_copyable_v<T>
+class Tracked : private TrackingLogger<T>
+{
+public:
+
+    Tracked()
+        : TrackingLogger<T>(),
+          value{}
+    {}
+
+    template <typename ... Args>
+    requires std::is_constructible_v<T, Args...>
+    explicit Tracked(Args&&... args)
+        : TrackingLogger<T>(),
+          value(std::forward<Args>(args)...)
+    {}
+
+
+    Tracked(Tracked const&)             = default;
+    Tracked(Tracked&&)                  = default;
+    Tracked& operator =(Tracked const&) = default;
+    Tracked& operator =(Tracked&&)      = default;
+    ~Tracked()                          = default;
+
+
+    T value;
+
+    T*       operator ->()       { return &value; }
+    T const* operator ->() const { return &value; }
+    T&       operator *()        { return value; }
+    T const& operator *() const  { return value; }
+
+    operator T&() { return value; }
+    operator T const&() const { return value; }
+};
+
 
 #endif // PROJECT_UTILS_TRACKING_LOGGER_HPP

@@ -5,7 +5,7 @@
 #include "utils/event_bus.hpp"
 
 #include <string>
-
+#include <thread>
 
 class Renderer
 {
@@ -14,13 +14,15 @@ public:
 
     void tick();
 
-    Image          image {{800, 600}};
+    Image          image {{1920, 1080}};
     unsigned char* data;
 
 private:
     dexode::EventBus::Listener listener {EventBus::get()};
 
     Settings settings;
+
+    std::jthread renderThread;
 };
 
 #endif // TEMPLATE_RENDERER_RENDERER_HPP

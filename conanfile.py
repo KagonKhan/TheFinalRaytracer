@@ -18,6 +18,8 @@ class ImGuiExample(ConanFile):
         self.requires("stb/cci.20240531")
         self.requires("spdlog/1.17.0")
         self.requires("eventbus/3.1.2")
+        self.requires("glm/1.0.1")
+
         
         
     def system_requirements(self):

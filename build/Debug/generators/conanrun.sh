@@ -1,1 +1,0 @@
-. "/home/sszynk/projects/TheFinalRaytracer/build/Debug/generators/conanrunenv-debug-x86_64.sh"

@@ -1,5 +1,7 @@
 #include "settings_window.hpp"
 
+#include "utils/event_bus.hpp"
+
 #include <imgui.h>
 
 void SettingsWindow::render()
@@ -9,7 +11,7 @@ void SettingsWindow::render()
     // ImGui::Text("size = %d x %d", (int)renderer.image.size().x, (int)renderer.image.size().y);
 
     if (ImGui::Checkbox("Generate noise", &settings.generateNoise)) {
-        // updateWithNoise(renderer.image);
+        EventBus::add(event::SettingsChanged{settings});
     }
 
     ImGui::End();

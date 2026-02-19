@@ -116,6 +116,8 @@ void App::run(int fps)
 
         EventBus::dispatch();
 
+        renderer->tick();
+
         main_window->render();
 
         finishFrame();

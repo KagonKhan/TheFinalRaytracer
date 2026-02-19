@@ -1,6 +1,0 @@
-/home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles/dear-imgui-conan.dir
-/home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles/edit_cache.dir
-/home/sszynk/projects/TheFinalRaytracer/build/Debug/CMakeFiles/rebuild_cache.dir
-/home/sszynk/projects/TheFinalRaytracer/build/Debug/bindings/CMakeFiles/ImguiBindings.dir
-/home/sszynk/projects/TheFinalRaytracer/build/Debug/bindings/CMakeFiles/edit_cache.dir
-/home/sszynk/projects/TheFinalRaytracer/build/Debug/bindings/CMakeFiles/rebuild_cache.dir

@@ -2,6 +2,7 @@
 #define TFR_UTILS_EVENT_BUS_HPP
 
 #include "renderer/settings.hpp"
+#include "utils/tracking_logger.hpp"
 
 #include <dexode/EventBus.hpp>
 
@@ -10,10 +11,7 @@ namespace event
 
 struct TextureIDUpdated { unsigned int id; };
 
-struct SettingsChanged
-{
-    Settings newSettings;
-};
+struct SettingsChanged { Settings newSettings; };
 
 }  // namespace events
 
