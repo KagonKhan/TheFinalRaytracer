@@ -36,6 +36,7 @@ add_executable(dear-imgui-conan
 
     src/utils/logger.cpp
     src/utils/event_bus.cpp
+    src/utils/math.cpp
 )
 
 target_include_directories(dear-imgui-conan PUBLIC src)
@@ -50,5 +51,6 @@ target_link_libraries(dear-imgui-conan PUBLIC
 )
 
 target_compile_definitions(dear-imgui-conan PUBLIC RESOURCE_DIR=${PROJECT_SOURCE_DIR}/resources)
+target_compile_definitions(dear-imgui-conan PUBLIC GLM_ENABLE_EXPERIMENTAL)
 
 # todo: expand (maybe cmake starter template from jason turner?)

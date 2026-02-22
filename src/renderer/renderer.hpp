@@ -7,6 +7,8 @@
 #include <string>
 #include <thread>
 
+#include "utils/math.hpp"
+
 class Renderer
 {
 public:
@@ -23,6 +25,8 @@ private:
     Settings settings;
 
     std::jthread renderThread;
+
+    math::PinholeCamera camera;
 };
 
 #endif // TEMPLATE_RENDERER_RENDERER_HPP
